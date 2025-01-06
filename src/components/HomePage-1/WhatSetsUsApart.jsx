@@ -1,6 +1,6 @@
 import React from 'react'
 import { WhatSetsUsApartData } from "../../content/data"
-import icon1 from "../../assets/HomeOne/WhatSetsUsApart/icon1.svg"
+// import icon1 from "../../assets/HomeOne/WhatSetsUsApart/icon1.svg"
 // import icon2 from "../../assets/HomeOne/WhatSetsUsApart/icon2.svg"
 // import icon3 from "../../assets/HomeOne/WhatSetsUsApart/icon3.svg"
 // import icon4 from "../../assets/HomeOne/WhatSetsUsApart/icon4.svg"
