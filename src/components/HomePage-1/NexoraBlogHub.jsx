@@ -55,7 +55,7 @@ const NexoraBlogHub = () => {
                                         {item.authorOpsition}
                                     </p>
                                     </div>
-                                    <Link href="#" className="blog-detail-page-link">
+                                    <Link to="#" className="blog-detail-page-link">
                                         <img src={Arrow} alt="" />
                                     </Link>
                                 </div>

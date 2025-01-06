@@ -17,11 +17,11 @@ const Header = () => {
                   </div>
 
                   <div className="nav-menu-options">
-                    <Link className="nav-list nav-list-active" href="#">Home</Link>
-                    <Link className="nav-list" href="#">Pages</Link>
-                    <Link className="nav-list" href="#">Services</Link>
-                    <Link className="nav-list" href="#">Blog</Link>
-                    <Link className="nav-list" href="#">Support</Link>
+                    <Link className="nav-list nav-list-active" to="#" >Home</Link>
+                    <Link className="nav-list" to="#">Pages</Link>
+                    <Link className="nav-list" to="#">Services</Link>
+                    <Link className="nav-list" to="#">Blog</Link>
+                    <Link className="nav-list" to="#">Support</Link>
                   </div>
 
                   <div className="nav-btn-wrap">
