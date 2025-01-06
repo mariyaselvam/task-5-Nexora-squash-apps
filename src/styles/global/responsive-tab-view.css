@@ -1,0 +1,16 @@
+@media (min-width:1800px) {
+    body .container{
+        max-width: 1440px;
+        padding: 0px;
+    }
+
+    body .row{
+        margin: 0px;
+    }
+}
+
+@media (max-width:1000px) {
+    .nav-menu-options{
+        display: none;
+    }
+}
