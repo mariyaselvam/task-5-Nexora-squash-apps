@@ -8,7 +8,7 @@ import { WhatSetsUsApartData } from "../../content/data"
 // import icon6 from "../../assets/HomeOne/WhatSetsUsApart/icon6.svg"
 
 const WhatSetsUsApart = () => {
-  return (
+  return (  
     <>
       <section className="What-Sets-Us-Apart-sec">
       <div className="What-Sets-Us-Apart-main-tit-wrap">

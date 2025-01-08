@@ -5,6 +5,11 @@
    --border: #DEE6ED;
 }
 
+*, ::before , ::after{
+    /* outline: 1px solid red;
+    opacity: 1; */
+}
+
 .row>*{
     padding: 0px;
 }
@@ -83,8 +88,6 @@ p{
 }
 
 .headerOne{
-    /* position: fixed; */
-    /* top: 50px; */
     padding-top: 50px;
     width: 100%;
 }
@@ -92,6 +95,7 @@ p{
 .team-members-client-projets{
     display: flex;
     gap: 60px;
+    flex-wrap: wrap;
 }
 
 .team-members-client-projets > div{
@@ -105,6 +109,7 @@ p{
     background-color: #000000;
     border-radius: 30px;
     color: var(--primary);
+    transition: 0s ;
 }
 
 .nav-btn-wrap > a{
@@ -115,7 +120,7 @@ p{
 }
 
 .Home-one-about-us-sec{
-    padding: 100px 0px;
+    padding: 71px 0px 60px;
 }
 
 .home-one-about-main-tit > span{
@@ -127,7 +132,7 @@ p{
     background-size: contain;
     background-repeat: no-repeat;
     position: relative;
-    transform: translateY(20px);
+    transform: translateY(15px);
 }
 
 .home-one-about-main-tit{
@@ -148,9 +153,8 @@ p{
 }
 
 .home-one-who-we-are-sec{
-    padding: 130px 0px;
+    padding: 140px 0px;
     position: relative;
-    height: 778px;
 }
 
 .brand-Logo-ul-list{
@@ -165,6 +169,7 @@ p{
     overflow-x: hidden;
     position: relative;
     height: 70px;
+    margin: 60px 0px;
 }
 
 .brand-Logo-ul-list{
@@ -220,7 +225,8 @@ p{
     width: fit-content;
 }
 
-.who-we-are-main-img  .who-we-are-main-img-box-1 , .who-we-are-main-img-box-2{
+.who-we-are-main-img  .who-we-are-main-img-box-1 , 
+.who-we-are-main-img-box-2{
     position: absolute;
     width: 80px;
     height: 80px;
@@ -259,7 +265,7 @@ p{
 }
 
 .What-Sets-Us-Apart-sec{
-    padding: 100px 0px;
+    padding: 60px 0px;
 }
 
 .What-Sets-Us-Apart-card{
@@ -278,6 +284,7 @@ p{
     overflow: hidden;
     transition: background-image 1s ease-in-out;
     border-radius: 10px;
+    border: 1px solid rgba(222, 230, 237, 1)
 }
 
 .What-Sets-Us-Apart-sec .row>* {
@@ -291,6 +298,8 @@ p{
     height: 80px;
     margin-bottom: 24px;
     border-radius: 8px;
+    display: grid;
+    place-content: center;
 }
 
 .What-Sets-Us-Apart-title{
@@ -304,6 +313,7 @@ p{
 .Home-one-Our-Expertise-tit-wrap{
     text-align: center;
     max-width: 849px;
+    width: 100%;
     margin: 0rem auto;
     margin-bottom: 80px ;
 }
@@ -325,7 +335,7 @@ p{
 }
 
 .Home-one-Our-Expertise-sec{
-    padding: 100px 0px;
+    padding: 60px 0px;
 }
 
 .Home-one-Our-Expertise-card-cont-wrap{
@@ -391,6 +401,7 @@ p{
 
 .Home-One-Nexora-Blog-Hub-tit-wrap{
     max-width: 849px;
+    width: 100%;
     margin: 0rem auto 80px;
     text-align: center;
 }
@@ -420,10 +431,13 @@ p{
     padding-left: calc(var(--bs-gutter-x)* .5);
 }
 
+.Home-One-Nexora-Blog-Hub-sec{
+    padding: 60px 0px;
+}
+
 .Nexora-Blog-listing-card-cont-wrap{
     padding: 30px;
 }
-
 
 .blog-author-details{
     display: flex;
@@ -490,3 +504,423 @@ p{
    height: 100%;
    object-fit: cover;
 }
+
+.Nexora-Blog-listing-btn{
+    margin: 0rem auto;
+    margin-top: 20px;
+}
+
+.secondary-btn{
+    width: max-content;
+    padding: 12px 59px 13px 25px;
+    background-color: var(--primary);
+    border-radius: 30px;
+    position: relative;
+    border: 1px solid transparent;
+}
+
+.secondary-btn:hover{
+  background-color: white;
+  border: 1px solid var(--dark);
+}
+
+.Nexora-Blog-listing-btn > img{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 25px;
+    
+}
+
+.home-one-footer-sec{
+    background-color: black;
+    margin: 50px 50px 0px;
+    border-radius: 50px 50px 0px 0px;
+    padding: 100px 0px;
+    color: #ffffff;
+    position: relative;
+    overflow: hidden;
+}
+
+.home-one-footer-sec *{
+ color: white;
+}
+
+.home-one-footer-logo-wrap{
+    margin-bottom: 24px;
+}
+
+.home-one-footer-mail-link-btn{
+    background-color: var(--primary);
+    padding: 10px 12px 10px 46px;
+    width: max-content;
+    border-radius: 10px;
+    color: black;
+    position: relative;
+    border: 1px solid transparent;
+    transition: 0.3s ease-in-out;
+}
+
+
+
+.home-one-footer-sec .home-one-footer-mail-link-btn:hover{
+    background-color: #000000;
+    border: 1px solid var(--primary);
+}
+
+.home-one-footer-sec .home-one-footer-mail-link-btn:hover img{
+    filter: brightness(0) saturate(100%) invert(91%) sepia(99%) saturate(3471%) hue-rotate(24deg) brightness(100%) contrast(108%);
+}
+
+.home-one-footer-mail-link-btn > img{
+    position: absolute;
+    transition: 0.3s ease-in-out;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 12px;
+}
+
+.home-one-usefull-links-tit , 
+.home-one-company-links-tit , 
+.home-one-Get-In-Touch-links-tit{
+    margin-bottom: 20px;
+    font-family: "Outfit";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.home-one-footer-sec a:hover{
+   color: white;
+}
+
+.home-one-usefull-links-wrap > a , 
+.home-one-Get-In-Touch-links-wrap > a , 
+.home-one-company-links-wrap > a{
+    color: hsla(220, 6%, 49%, 1);
+    font-family: "Jost";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 20px;
+}
+
+.home-one-Get-In-Touch-links-wrap > p{
+    color: #757a84;
+    margin-bottom: 24px;
+}
+
+.home-one-Get-In-Touch-links-social-media-iocn > img{
+    filter: brightness(0) saturate(100%) invert(99%) sepia(98%) saturate(1817%) hue-rotate(23deg) brightness(99%) contrast(109%);
+    transition: 0.1s ease-in-out;
+}
+
+.home-one-Get-In-Touch-links-social-media-iocn{
+    border: 1px solid var(--primary);
+    width: 45px;
+    height: 45px;
+    display: grid;
+    place-content: center;
+    border-radius: 5px;
+    transition: 0.2s ease-in-out;
+}
+
+.home-one-Get-In-Touch-links-social-media-iocn:hover{
+    background-color: var(--primary);
+}
+
+.home-one-Get-In-Touch-links-social-media-iocn:hover img{
+    filter: brightness(0) saturate(100%)
+}
+
+.home-one-Get-In-Touch-links-social-media-wrap{
+    display: flex;
+    gap: 12px;
+}
+
+.footer-main-tit-bottom{
+    font-family: "Outfit";
+    font-size: 143px;
+    font-weight: 700;
+    line-height: 140px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #7A7A7A -199.64%, rgba(20, 20, 20, 0) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.home-one-footer-copy-rights{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 30px;
+    font-family: "Jost";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgba(117, 122, 132, 1);
+    width: 100%;
+    text-align: center;
+}
+
+.home-one-footer-copy-rights > a{
+    display: inline-block;
+    color: inherit;
+}
+
+.home-one-faq-tit-wrap{
+    max-width: 1023px;
+    width: 100%;
+    margin: 0rem auto;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.home-one-faq-tit-wrap > p{
+    margin: 0px;
+}
+
+.home-one-faq-main-tit{
+    font-family: "Outfit";
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70px;
+    margin-bottom: 26px;
+}
+
+.accordion{
+    --bs-accordion-bg: var(--secondry);
+    
+}
+
+.accordion-item{
+    margin-bottom: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.accordion-button{
+    padding: 28px 20px;
+    font-family: "Outfit";
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 34px;
+    box-shadow: none;
+}
+
+.accordion-body{
+    padding: 0px 20px 20px 20px;
+}
+
+.accordion-button:not(.collapsed){
+    color: black;
+    background-color: var(--secondry);
+    box-shadow: none;
+}
+
+.accordion-button:focus{
+    box-shadow: none;
+}
+
+.accordion-button::after{
+    background-image: url("../../assets/HomeOne/Faq/add.svg");
+    background-color: var(--dark);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    background-size: cover;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.home-one-testimonials-sec{
+    padding: 60px 0px;
+}
+
+.accordion-button:not(.collapsed)::after{
+    background-image: url("../../assets/HomeOne/Faq/add.svg");
+}
+
+.home-one-faq-sec{
+    padding: 60px 0px;
+}
+
+.home-one-faq-sec .row>*{
+    padding-right: calc(var(--bs-gutter-x)* .5);
+    padding-left: calc(var(--bs-gutter-x)* .5);
+}
+
+.home-one-testimonials-tit-wrap{
+    max-width: 829px;
+    width: 100%;
+    text-align: center;
+    margin: 0rem auto;
+}
+
+.home-one-testimonials-main-tit{
+    font-family: "Outfit";
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70px;
+    margin-bottom: 26px;
+}
+
+/* ==================================================== */
+
+.carousel{
+    margin: 0 auto;
+    padding: 20px 0;
+    max-width: 100%;
+    overflow: hidden;
+    display: flex;
+    cursor: pointer;
+    position: relative;
+}
+
+.carousel::before , .carousel::after{
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 50px;
+  /* background-color: white; */
+}
+
+.carousel::before{
+    background: linear-gradient(-90deg, white , transparent);
+    right: 0px;
+    top: 0px;
+    z-index: 1;
+}
+
+.carousel::after{
+    background: linear-gradient(90deg, white , transparent);
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+}
+
+.group.animated{
+    animation: scrolling 20s linear infinite;
+}
+
+
+.animatedOne{
+    animation: scrollingOne 20s linear infinite;
+}
+
+@keyframes  scrolling{
+    0%{
+        transform: translateX(0%);
+    }
+
+    100%{
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes  scrollingOne{
+    0%{
+        transform: translateX(-100%);
+    }
+
+    100%{
+        transform: translateX(0%);
+    }
+}
+
+.carousel:not(.basic) > *{
+    flex: 0 0 100%;
+}
+
+.group{
+    display: flex;
+    gap: 30px;
+    padding-right: 20px;
+    will-change: transform;
+}
+
+.card:nth-child(1){
+    /* background: #7958ff; */
+}
+
+.card{
+    width: 100%;
+    border-radius: 24px;
+    box-shadow: rgba(0, 0, 0, 10%) 5px 5px 20px 0;
+    /* padding: 20px; */
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+    overflow: hidden;
+}
+
+.testimonial-card-wrap{
+    background: linear-gradient(180deg, #F4FFEE 23%, rgba(255, 255, 255, 0) 100%);
+    background-color: #eaffdd;
+    height: 100%;
+    width: 100%;
+    padding: 30px;
+    position: relative;
+}
+
+.testimonial-card-wrap > p{
+    margin: 0px;
+}
+
+.testimonial-card-top{
+    margin-bottom: 24px;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 24px;
+}
+
+.testimonial-card-top{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+
+.testimonial-card-profile-detail > h4{
+    font-family: "Outfit";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    margin-bottom: 2px;
+}
+
+.testimonial-card-profile-detail{
+   display: flex;
+   flex-direction: column;
+}
+
+.testimonial-card-wrap::before{
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background:url("../../assets/HomeOne/Testimonials/quote-down.svg") ;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  right: 30px;
+  top: 30px;
+}
+
+.carousel {
+    /* ... */
+    &:hover .group {
+      animation-play-state: paused;
+    }
+}
+
+  /* ==================================================== */

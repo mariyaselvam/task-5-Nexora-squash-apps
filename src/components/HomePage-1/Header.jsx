@@ -1,8 +1,17 @@
 import React from 'react'
 import Logo from "../../assets/common/Logo.svg"
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
+import { useState , useEffect } from 'react'
+import { Link , useLocation } from "react-router-dom"
+
 
 const Header = () => {
+    // nav-menu-active-code
+    const location = useLocation(); 
+    const [url, setUrl] = useState(null);
+    useEffect(() => {
+      setUrl(location.pathname);
+    }, [location]);
   return (
     <>
     <section className="headerOne">
@@ -17,8 +26,8 @@ const Header = () => {
                   </div>
 
                   <div className="nav-menu-options">
-                    <Link className="nav-list nav-list-active" to="#" >Home</Link>
-                    <Link className="nav-list" to="#">Pages</Link>
+                    <Link className= {"nav-list " + (url === "/" ? "nav-list-active" : "") }  to="/" >Home</Link>
+                    <Link className= {"nav-list " + (url === "/pages" ? "nav-list-active" : "") }  to="/pages">Pages</Link>
                     <Link className="nav-list" to="#">Services</Link>
                     <Link className="nav-list" to="#">Blog</Link>
                     <Link className="nav-list" to="#">Support</Link>

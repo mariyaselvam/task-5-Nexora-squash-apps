@@ -4,6 +4,7 @@ import "./styles/global/responsive-tab-view.css"
 import { HomeOne } from "./pages/HomeOne";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Pages from "./pages/Pages";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
        <BrowserRouter>
          <Routes>
           <Route path="/" element={<HomeOne />} />
+          <Route path="/pages" element={<Pages />} />
          </Routes>
        </BrowserRouter>
     </div>

@@ -7,6 +7,8 @@ import WhoWeAre from '../components/HomePage-1/WhoWeAre'
 import WhatSetsUsApart from '../components/HomePage-1/WhatSetsUsApart'
 import OurExpertise from '../components/HomePage-1/OurExpertise'
 import NexoraBlogHub from '../components/HomePage-1/NexoraBlogHub'
+import FaqSec from '../components/HomePage-1/FaqSec'
+import TestimonialsSec from '../components/HomePage-1/TestimonialsSec'
 
 export const HomeOne = () => {
   return (
@@ -18,6 +20,8 @@ export const HomeOne = () => {
     <WhatSetsUsApart />
     <OurExpertise />
     <NexoraBlogHub />
+    <TestimonialsSec /> 
+    <FaqSec />
     <Footer />
     </>
   )

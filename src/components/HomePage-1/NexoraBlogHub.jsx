@@ -3,8 +3,10 @@ import { NexoraBlogHubData } from "../../content/data"
 
 import Img1 from "../../assets/HomeOne/NexoraBlogHub/NexoraBlogListingImg-1.png"
 import Arrow from "../../assets/HomeOne/NexoraBlogHub/arrow-up.svg"
+import ArrowUP from "../../assets/HomeOne/NexoraBlogHub/arrow--up.svg"
 import BlogAuthorPic from "../../assets/HomeOne/NexoraBlogHub/blogAuthor-Pic.png"
 import { Link } from 'react-router-dom'
+
 
 const NexoraBlogHub = () => {
   return (
@@ -24,7 +26,7 @@ const NexoraBlogHub = () => {
                         <div className="Home-One-Nexora-Blog-listing-card">
                             <div className="Nexora-Blog-listing-card-main-img">
                                <Link to="#">
-                                <img src={Img1} alt="" />
+                                <img src={item.CardMainImg} alt="" />
                                 </Link>
                             </div>
                             <div className="Nexora-Blog-listing-card-cont-wrap">
@@ -42,7 +44,7 @@ const NexoraBlogHub = () => {
                                 <div className="blog-author-details">
                                     <div className="blog-author-img">
                                          <Link to="#">
-                                         <img src={BlogAuthorPic} alt="" />
+                                         <img src={item.authorImg} alt="" />
                                          </Link>
                                     </div>
                                     <div className="blog-author-content">
@@ -67,6 +69,10 @@ const NexoraBlogHub = () => {
                 
             </div>
         </div>
+        <Link className="Nexora-Blog-listing-btn secondary-btn" to="#">
+        View All Blogs
+        <img src={ArrowUP} alt="" />
+        </Link>
     </section>
     </>
   )

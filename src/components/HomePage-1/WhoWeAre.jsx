@@ -6,7 +6,7 @@ const WhoWeAre = () => {
     <section className="home-one-who-we-are-sec">
         <div className="container">
             <div className="row">
-                <div className="col-xl-6">
+                <div className="col-xxl-6">
                    <div className="home-one-who-we-are-cont-wrap">
                      <h3 className="home-one-who-we-are-main-tit">
                      Driven By Creativity and Passion
@@ -30,7 +30,7 @@ const WhoWeAre = () => {
                      </div>
                    </div>
                 </div>
-                <div className="col-xl-6">
+                <div className="col-xxl-6">
                          <div className="who-we-are-main-img">
                             <span className="who-we-are-main-img-box-1"></span>
                             <span className="who-we-are-main-img-box-2"></span>
