@@ -20,7 +20,7 @@ const WhatSetsUsApart = () => {
         <div className="container">
             <div className="row">
                 { WhatSetsUsApartData.map((item, index) => (
-                    <div className="col-md-4">
+                    <div className="col-xl-4 col-md-6 col-sm-12">
                 <div key={index} className="What-Sets-Us-Apart-card">
                     <div className="What-Sets-Us-Apart-card-img">
                        <img src={item.imgURL} alt="" className="feature-icon" />

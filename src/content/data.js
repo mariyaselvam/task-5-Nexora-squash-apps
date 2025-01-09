@@ -4,6 +4,8 @@ import icon3 from "../assets/HomeOne/WhatSetsUsApart/icon3.svg"
 import icon4 from "../assets/HomeOne/WhatSetsUsApart/icon4.svg"
 import icon5 from "../assets/HomeOne/WhatSetsUsApart/icon5.svg"
 import icon6 from "../assets/HomeOne/WhatSetsUsApart/icon6.svg"
+import icon7 from "../assets/HomeOne/WhatSetsUsApart/icon7.svg"
+import icon8 from "../assets/HomeOne/WhatSetsUsApart/icon8.svg"
 
 import blogAuthor1 from "../assets/HomeOne/NexoraBlogHub/blogAuthor-Pic.png"
 import blogAuthor2 from "../assets/HomeOne/NexoraBlogHub/blogAuthor-Pic-1.png"
@@ -168,5 +170,96 @@ export const WhatourClientssayAboutUsTw0 = [
     }
 ]
 
+export const HomeTwoWhatSetsUsApartData = [
+    {
+     icon: icon,
+     tit:"Custom Designs",
+     para:"Tailored web designs to fit your business needs perfectly.",
+     style: "first-top-child-card"
+    },
+    {
+        icon: icon2,
+        tit:"Quick Delivery",
+        para:"Tailored web designs to fit your business needs perfectly.",
+        style: "first-top-child-card"
+    },
+    {
+        icon: icon3,
+        tit:"Ongoing Support",
+        para: "Tailored web designs to fit your business needs perfectly.",
+        style: "first-top-child-card"
+    },
+    {
+        icon: icon4,
+        tit:"SEO Optimized",
+        para: "Tailored web designs to fit your business needs perfectly.",
+        style: "last-top-child-card"
+    },
+    {
+        icon: icon5,
+        tit:"Mobile Ready",
+        para: "Tailored web designs to fit your business needs perfectly.",
+        style: "first-bottom-child-card"
+    },
+    {
+        icon: icon6,
+        tit:"User Friendly",
+        para: "Tailored web designs to fit your business needs perfectly.",
+        style: "first-bottom-child-card"
+    },
+    {
+        icon: icon7,
+        tit:"Latest Tech",
+        para: "Tailored web designs to fit your business needs perfectly.",
+        style: "first-bottom-child-card"
+    },
+    {
+        icon: icon8,
+        tit:"Expert Team",
+        para: "Tailored web designs to fit your business needs perfectly.",
+        style: "last-bottom-child-card"
+    },
+]
 
-
+export const FaqData = [
+    {
+        id: "0" ,
+        qus:"1. What is Nexora?",
+        ans:"Nexora is a digital agency startup specializing in creating innovative websites, brands, and marketing strategies to help businesses achieve success."
+    },
+    {
+        id:"1",
+        qus:"2. What services does Nexora offer?",
+        ans:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    },
+    {
+        id:"2",
+        qus:"3. How can Nexora help grow my business?",
+        ans:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    },
+    {
+        id:"3",
+        qus:"4. Do you create custom websites?",
+        ans:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    },
+    {
+        id:"4",
+        qus:"5. How long does a project take?",
+        ans:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    },
+    {
+        id:"5",
+        qus:"6. Do you work with all industries?",
+        ans:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    },
+    {
+        id:"6",
+        qus:"7. What sets Nexora apart?",
+        ans:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    },
+    {
+        id:"7",
+        qus:"8. Do you offer ongoing support?",
+        ans:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    }
+]

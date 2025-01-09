@@ -22,7 +22,7 @@ const NexoraBlogHub = () => {
             <div className="row">
                    {
                     NexoraBlogHubData.map((item , index) => (
-                        <div className="col-xl-4">
+                        <div className="col-xl-4 col-md-6 col-sm-12">
                         <div className="Home-One-Nexora-Blog-listing-card">
                             <div className="Nexora-Blog-listing-card-main-img">
                                <Link to="#">

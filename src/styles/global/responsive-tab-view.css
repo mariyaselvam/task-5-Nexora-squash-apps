@@ -9,9 +9,20 @@
     body .row{
         margin: 0px;
     }
+
 }
 
 @media (max-width:1800px) {
+
+    .Nexora-Blog-listing-card-main-img img{
+        width: 100%;
+    }
+    
+    .home-one-about-us-main-img > img{
+        width: 100%;
+    }
+
+
     .home-one-who-we-are-cont-wrap{
         position: relative;
         padding: 100px;
@@ -29,7 +40,7 @@
     }
 
     .home-one-footer-sec{
-        margin: 20px;
+        margin: 0rem 20px;
     }
 
     .carousel:not(.basic) > *{
@@ -42,12 +53,12 @@
         display: none;
     }
 
-    .Home-one-Our-Expertise-main-card{
-        flex-direction: column;
+    .brand-Logo-ul-list{
+        gap: 10px;
     }
 
-    .Home-one-Our-Expertise-inner-card{
-        /* width:80%; */
+    .Home-one-Our-Expertise-main-card{
+        flex-direction: column;
     }
 
     .inner-card-child{
@@ -60,6 +71,8 @@
     .home-one-who-we-are-cont-wrap{
         padding: 70px;
     }
+
+
 }
 
 @media (max-width:600px) {
