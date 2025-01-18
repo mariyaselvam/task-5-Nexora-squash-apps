@@ -16,7 +16,9 @@ const Footer = () => {
            <div className="col-md-6">
              <div className="home-one-footer-logo-nd-content-wrap">
               <div className="home-one-footer-logo-wrap">
+                <Link to="/">
                 <img src={Logo} alt="" />
+                </Link>
               </div>
              </div>
 

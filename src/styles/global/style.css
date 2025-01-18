@@ -367,6 +367,7 @@ p{
     font-size: 24px;
     font-weight: 700;
     line-height: 34px;
+    margin: 0px;
 }
 
 .Home-one-Our-Expertise-inner-card{
@@ -765,6 +766,7 @@ p{
     width: 100%;
     text-align: center;
     margin: 0rem auto;
+    margin-bottom: 80px;
 }
 
 .home-one-testimonials-main-tit{
@@ -779,7 +781,7 @@ p{
 
 .carousel{
     margin: 0 auto;
-    padding: 20px 0;
+    padding: 0px 0px 30px;
     max-width: 100%;
     overflow: hidden;
     display: flex;
@@ -792,7 +794,6 @@ p{
   position: absolute;
   height: 100%;
   width: 50px;
-  /* background-color: white; */
 }
 
 .carousel::before{
@@ -869,6 +870,7 @@ p{
     width: 100%;
     padding: 30px;
     position: relative;
+    text-align: left;
 }
 
 .testimonial-card-wrap > p{
@@ -879,6 +881,7 @@ p{
     margin-bottom: 24px;
     border-bottom: 1px solid var(--border);
     padding-bottom: 24px;
+    flex-direction: row-reverse;
 }
 
 .testimonial-card-top{
@@ -1073,12 +1076,231 @@ p{
     margin-bottom: 16px;
 }
 
-.swiper-slide{
-    /* height: 200px !important; */
-    /* height: 270px !important; */
-    /* background-color: var(--primary); */
-}
-
 .swiper-wrapper {
     transition-timing-function: linear !important;
-  }
+}
+
+.about-us-page-banner-cont-wrap{
+    width: 100%;
+    max-width: 849px;
+    margin: 0rem auto;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.about-us-page-banner-main-tit{
+    font-family: "Outfit";
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70px;
+    margin-bottom: 30px;
+}
+
+.about-us-page-banner-sec{
+    padding: 60px 0px;
+}
+
+.About-Our-Story-sec{
+    padding: 60px 0px 120px;
+}
+
+.About-Our-Story-tit-wrap{
+    max-width: 849px;
+    width: 100%;
+    margin: 0rem auto;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.About-Our-Story-main-tit{
+    font-family: "Outfit";
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70px;
+    margin-bottom: 30px;
+}
+
+.About-Our-Story-card{
+    background: rgba(244, 255, 238, 1);
+    padding: 30px;
+    position: relative;
+    border-radius: 10px;
+    border:  1p solid var(--border);
+}
+
+.About-Our-Story-card::before{
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: var(--primary);
+    border: 10px solid white;
+    box-sizing: content-box;
+    border-radius: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -60px;
+}
+
+.About-Our-Story-card::after{
+    content: "";
+    position: absolute;
+    width: 107%;
+    height: 2px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #dee6ed;
+    bottom: -40px;
+    z-index: -1;
+}
+
+.About-Our-Story-sec .row>*{
+    padding-right: calc(var(--bs-gutter-x)* .5);
+    padding-left: calc(var(--bs-gutter-x)* .5);
+}
+
+.About-Our-Story-year{
+    display: block;
+    font-family: "Outfit";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46px;
+    color: var(--primary);
+    margin-bottom: 30px;
+}
+
+.About-Our-Story-card-tit{
+    font-family: "Outfit";
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 38px;
+    margin-bottom: 28px;
+}
+
+.About-Us-Our-Mission-Values-tit-wrap{
+    max-width: 849px;
+    width: 100%;
+    text-align: center;
+    margin: 0rem auto;
+    margin-bottom: 80px;
+}
+
+.About-Us-Our-Mission-Values-sec{
+    padding: 60px 0px;
+}
+
+.About-Us-Our-Mission-Values-min-tit{
+    font-family: "Outfit";
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70px;
+    margin-bottom: 30px;
+}
+
+.About-Us-Our-Mission-Values-card-img{
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+    gap: 24px;
+}
+
+.About-Us-Our-Mission-Values-card-img > img{
+    flex-shrink: 0;
+    background-color: #9EFF00;
+    padding: 10px;
+    width: 55px;
+    height: 55px;
+    border-radius: 10px;
+}
+
+.About-Us-Our-Mission-Values-card{
+    padding: 30px;
+    border: 1px solid var(--border);
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.About-Us-Our-Mission-Values-card:hover{
+    background-color: var(--secondry);
+}
+
+.About-Us-Our-Mission-Values-sec .row>*{
+    padding-right: calc(var(--bs-gutter-x)* .5);
+    padding-left: calc(var(--bs-gutter-x)* .5);
+}
+
+.Awesome-Team-Members-tit-wrap{
+    max-width: 768px;
+    width: 100%;
+    margin: 0rem auto;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.Awesome-Team-Members-main-tit{
+    font-family: "Outfit";
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70px;
+    margin-bottom: 30px;
+}
+
+.Awesome-Team-Members-sec{
+    padding: 60px 0px;
+}
+
+.Awesome-Team-Members-sec .row>*{
+    padding-right: calc(var(--bs-gutter-x)* .5);
+    padding-left: calc(var(--bs-gutter-x)* .5);
+}
+
+.Awesome-Team-Members-img{
+    padding-top: 30px;
+    background: url("../../assets/AboutusPage/bg.png")  rgba(244, 255, 238, 1);
+}
+
+.Awesome-Team-Members-card{
+    border-radius: 20px;
+    overflow: hidden;
+    border: 2px solid var(--border);
+}
+
+.Awesome-Team-Members-card-cont-wrap{
+    padding: 17px 30px;
+    position: relative;
+}
+
+.Awesome-Team-Members-name{
+    font-family: "Outfit";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.Awesome-Team-Members-card-cont-wrap img{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.Our-Culture-Empowering-Excellence-tit-wrap{
+    max-width: 1002px;
+    width: 100%;
+    text-align: center;
+    margin: 0rem auto;
+}
+
+.Our-Culture-Empowering-Excellence-main-tit{
+    font-family: "Outfit";
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70px;
+    margin-bottom: 30px;   
+}
+
+.Our-Culture-Empowering-Excellence-sec{
+    padding: 60px 0px;
+}

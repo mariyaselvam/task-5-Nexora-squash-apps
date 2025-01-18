@@ -21,9 +21,14 @@ import NexoraBlogHub4 from "../assets/HomeOne/NexoraBlogHub/NexoraBlogListingImg
 import NexoraBlogHub5 from "../assets/HomeOne/NexoraBlogHub/NexoraBlogListingImg-5.png"
 import NexoraBlogHub6 from "../assets/HomeOne/NexoraBlogHub/NexoraBlogListingImg-6.png"
 
-
 import Profile from "../assets/HomeOne/Testimonials/test-profile.png"
 import Ratings from "../assets/HomeOne/Testimonials/rattings.svg"
+
+
+import TeamMembers1 from "../assets/AboutusPage/Team-Members-1.png"
+import TeamMembers2 from "../assets/AboutusPage/Team-Members-2.png"
+import TeamMembers3 from "../assets/AboutusPage/Team-Members-3.png"
+import TeamMembers4 from "../assets/AboutusPage/Team-Members-4.png"
 
 
 export const WhatSetsUsApartData = [
@@ -263,3 +268,83 @@ export const FaqData = [
         ans:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     }
 ]
+
+export const OverTheYearsCont = [
+    {
+     year: "2002",
+     tit: "Founded",
+     para: "Nexora was founded in 2002 with a vision to revolutionize the digital marketing industry. What started as a small team with a big dream has grown into a dynamic agency."
+    },
+    {
+        year: "2014",
+        tit: "12K+ Client Served",
+        para: "In 2014, we reached a significant milestone, serving 12K+ clients worldwide. This achievement is a testament to our dedication and our clients' trust in us."
+    },
+    {
+        year: "2024",
+        tit: "20+ Years of Experience",
+        para: "In 2024, we celebrated 20 years of delivering exceptional results for our clients. We are grateful for the opportunities and look forward to many more years of success."
+    }
+]
+
+export const AboutUsOurMissionValuesData = [
+    {
+        iocnURL: icon,
+        tit : "Mission",
+        para : "To empower businesses with innovative digital solutions, fostering growth and success in an ever-evolving digital landscape."
+    },
+    {
+        iocnURL: icon2,
+        tit : "Vision",
+        para : "To be a leading global agency, recognized for our transformative impact, creative excellence, and client-centric approach."
+    },
+    {
+        iocnURL: icon3,
+        tit : "Collaboration",
+        para : "We believe that great work is the result of collaboration between our team and our clients."
+    },
+    {
+        iocnURL: icon4,
+        tit : "Innovation",
+        para : "At Agency pro, we are committed to staying at the forefront of the ever-evolving digital space."
+    },
+    {
+        iocnURL: icon5,
+        tit : "Integrity",
+        para : "We uphold the highest standards of integrity and professionalism in everything we do in our business."
+    },
+    {
+        iocnURL: icon6,
+        tit : "Result Driven",
+        para : "We are dedicated to delivering tangible results that help our clients achieve their goals."
+    }
+]
+
+export const AwesomeTeamMembersData = [
+    {
+        ImgURL: TeamMembers1,
+        Name: "Michael Brown",
+        Job: "Founder & CEO"
+
+    },
+    {
+        ImgURL: TeamMembers2,
+        Name: "Sarah White",
+        Job: "UI UX Designer"
+
+    },
+    {
+        ImgURL: TeamMembers3,
+        Name: "David Brown",
+        Job: "Head of Marketing"
+
+    },
+    {
+        ImgURL: TeamMembers4,
+        Name: "Emile Johnson",
+        Job: "Head of Operations"
+
+    },
+]
+
+

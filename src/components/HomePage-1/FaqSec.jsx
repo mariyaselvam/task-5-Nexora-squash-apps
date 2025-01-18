@@ -4,9 +4,9 @@ import { FaqData } from "../../content/data";
 
 const FaqSec = () => {
 
-
   const firstFiveItems = FaqData.slice(0, 4);  // First 5 items
-  const remainingItems = FaqData.slice(4); 
+  const remainingItems = FaqData.slice(4);
+  
   return (
     <>
       <section className="home-one-faq-sec">

@@ -144,8 +144,8 @@ const TestimonialsSec = () => {
                             WhatourClientssayAboutUsOne.map((item, index) => (
                                 <SwiperSlide>
                                 <div key={index} class="card">
-                                <div className="testimonial-card-wrap">
-                                        <div className="testimonial-card-top">
+                                <div  className="testimonial-card-wrap">
+                                        <div style={{flexDirection:"row"}} className="testimonial-card-top">
                                             <div className="testimonial-card-profile-img">
                                                 <img src={item.testimoImg} alt="" />
                                             </div>
@@ -167,7 +167,7 @@ const TestimonialsSec = () => {
                                 <SwiperSlide>
                                 <div key={index} class="card">
                                 <div className="testimonial-card-wrap">
-                                        <div className="testimonial-card-top">
+                                        <div style={{flexDirection:"row"}} className="testimonial-card-top">
                                             <div className="testimonial-card-profile-img">
                                                 <img src={item.testimoImg} alt="" />
                                             </div>
@@ -210,7 +210,7 @@ const TestimonialsSec = () => {
                                 <SwiperSlide>
                                 <div key={index} class="card">
                                 <div className="testimonial-card-wrap">
-                                        <div className="testimonial-card-top">
+                                        <div style={{flexDirection:"row-reverse"}} className="testimonial-card-top">
                                             <div className="testimonial-card-profile-img">
                                                 <img src={item.testimoImg} alt="" />
                                             </div>
@@ -232,7 +232,7 @@ const TestimonialsSec = () => {
                                 <SwiperSlide>
                                 <div key={index} class="card">
                                 <div className="testimonial-card-wrap">
-                                        <div className="testimonial-card-top">
+                                        <div style={{flexDirection:"row-reverse"}} className="testimonial-card-top">
                                             <div className="testimonial-card-profile-img">
                                                 <img src={item.testimoImg} alt="" />
                                             </div>
