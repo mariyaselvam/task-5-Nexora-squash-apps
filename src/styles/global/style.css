@@ -10,6 +10,11 @@
     opacity: 1; */
 }
 
+section{
+    max-width: 3000px;
+    margin: 0rem auto;
+}
+
 .row>*{
     padding: 0px;
 }
@@ -638,6 +643,7 @@ p{
 .home-one-Get-In-Touch-links-social-media-wrap{
     display: flex;
     gap: 12px;
+    flex-wrap: wrap;
 }
 
 .footer-main-tit-bottom{
@@ -1125,7 +1131,13 @@ p{
     padding: 30px;
     position: relative;
     border-radius: 10px;
-    border:  1p solid var(--border);
+    border:  1px solid var(--border);
+}
+
+.About-Our-Story-card:hover::before{
+   width: 30px;
+   height: 30px;
+   bottom: -65px;
 }
 
 .About-Our-Story-card::before{
@@ -1138,6 +1150,7 @@ p{
     box-sizing: content-box;
     border-radius: 50%;
     left: 50%;
+    transition: 0.2s ease-in-out;
     transform: translateX(-50%);
     bottom: -60px;
 }
@@ -1183,6 +1196,13 @@ p{
     text-align: center;
     margin: 0rem auto;
     margin-bottom: 80px;
+}
+
+.About-Us-Our-Mission-Values-tit{
+    font-family: "Outfit";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
 }
 
 .About-Us-Our-Mission-Values-sec{
@@ -1275,6 +1295,7 @@ p{
     font-size: 20px;
     font-weight: 700;
     line-height: 30px;
+    margin-bottom: 10px;
 }
 
 .Awesome-Team-Members-card-cont-wrap img{
@@ -1286,11 +1307,23 @@ p{
     transform: translateY(-50%);
 }
 
+.Awesome-Team-Members-card-cont-wrap a{
+    margin-bottom: 10px;
+}
+
+.Awesome-Team-Members-card-cont-wrap span , .Awesome-Team-Members-card-cont-wrap a {
+    display: block;
+}
+
 .Our-Culture-Empowering-Excellence-tit-wrap{
     max-width: 1002px;
     width: 100%;
     text-align: center;
-    margin: 0rem auto;
+    margin: 0rem auto 80px;
+}
+
+.Our-Culture-Empowering-Excellence-tit-wrap > p{
+    margin: 0px;
 }
 
 .Our-Culture-Empowering-Excellence-main-tit{
@@ -1303,4 +1336,266 @@ p{
 
 .Our-Culture-Empowering-Excellence-sec{
     padding: 60px 0px;
+}
+
+.Our-Culture-Empowering-Excellence-cont-card{
+    padding: 30px;
+    border: 1px dashed var(--border);
+}
+
+.Our-Culture-Empowering-Excellence-icon{
+    background-color: var(--primary);
+    width: 65px;
+    height: 65px;
+    display: grid;
+    place-content: center;
+    border-radius: 5px;
+    margin-bottom: 24px;
+}
+
+.Our-Culture-Empowering-Excellence-card-tit{
+    margin-bottom: 24px;
+    font-family: "Outfit";
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 38px;
+}
+
+.Our-Culture-Empowering-Excellence-main-img{
+    max-width: max-content;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.Explore-Exciting-Opportunities-tit-wrap{
+    max-width: 845px;
+    width: 100%;
+    margin: 0px auto 80px;
+    text-align: center;
+}
+
+.Explore-Exciting-Opportunities-tit-wrap p{
+  margin: 0px;
+}
+
+.Explore-Exciting-Opportunities-main-tit{
+    font-family: "Outfit";
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70px;
+    margin-bottom: 30px;
+}
+
+.Explore-Exciting-Opportunities-card{
+    border: 1px solid var(--border);
+    background-color: var(--secondry);
+    margin-bottom: 30px;
+    padding: 16px 30px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.Explore-Exciting-Opportunities-card p{
+    margin: 0px;
+}
+
+.Explore-Exciting-Opportunities-card-icon{
+    border: 1px solid var(--border);
+    border-radius: 50%;
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    display: grid;
+    place-content: center;
+    overflow: hidden;
+}
+
+.Explore-Exciting-Opportunities-card-icon img{
+    position: relative;
+    filter: brightness(0) saturate(100%)
+}
+
+.Explore-Exciting-Opportunities-card-tit{
+    font-family: "Outfit";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.Explore-Exciting-Opportunities-sec .row>* {
+    padding-right: calc(var(--bs-gutter-x)* .5);
+    padding-left: calc(var(--bs-gutter-x)* .5);
+}
+
+.Explore-Exciting-Opportunities-card:hover .Explore-Exciting-Opportunities-card-icon{
+    background-color: var(--primary);
+}
+
+.Explore-Exciting-Opportunities-card:hover img{
+    animation: arrowanimation 0.3s ease;
+    transform: scale(1.1);
+}
+
+@keyframes arrowanimation {
+    0%{
+        top: 0%;
+        right: 0%;
+    }
+    50%{
+        top: -100%;
+        right: -100%;
+    }
+    50.01%{
+        top: 100%;
+        right: 100%;
+    }
+    100%{
+        top: 0%;
+        right: 0%;
+    }
+}
+
+.careers-email-link{
+    padding: 0px 20px;
+    margin: 0px;
+}
+
+.careers-email-link a{
+  display: inline-block;
+  font-family: "Jost";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  color: var(--dark);
+}
+
+.Explore-Exciting-Opportunities-sec{
+    padding: 60px 0px;
+}
+
+.Explore-Exciting-Opportunities-inner-sec-wrap{
+    padding: 50px;
+    border: 1px solid var(--border);
+    border-radius: 20px;
+}
+
+.Lets-Make-It-Happen-tit-wrap{
+    max-width: 947px;
+    width: 100%;
+    margin: 0px auto 80px;
+    text-align: center;
+}
+
+.Lets-Make-It-Happen-tit-wrap > p{
+    margin: 0px;
+}
+
+.Lets-Make-It-Happen-main-tit{
+    font-family: "Outfit";
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70px;
+    margin-bottom: 30px;
+}
+
+.Lets-Make-It-Happen-sec{
+    padding: 60px 0px 160px;
+}
+
+.Lets-Make-It-Happen-custom-grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    column-gap: 30px;
+    
+}
+
+.Lets-Make-It-Happen-custom-grid-col{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    position: relative;
+}
+
+.Lets-Make-It-Happen-logo{
+    width: max-content;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 4;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -100px;
+}
+
+.Lets-Make-It-Happen-logo::before{
+    content: "";
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    background-color: var(--dark);
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.Lets-Make-It-Happen-logo::after{
+    content: "";
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    background-color: white;
+    border-radius: 50%;
+    z-index: -2;
+}
+
+.Lets-Make-It-Happen-logo img{
+    border-radius: 50%;
+    height: 200px;
+}
+
+.contact-us-Get-in-Touch-with-Us-main-tit{
+    font-family: "Outfit";
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70px;
+    margin-bottom: 24px;
+}
+
+.contact-us-Get-in-Touch-with-Us-sec{
+    padding: 60px 0px;
+}
+
+.contact-us-Get-in-Touch-with-Us-card-iocn{
+    background-color: var(--primary);
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+    display: grid;
+    place-content: center;
+}
+
+.contact-us-Get-in-Touch-with-Us-card{
+    display: flex;
+    margin-bottom: 20px;
+    background-color: var(--secondry);
+    border-radius: 10px;
+    padding: 15px;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact-us-Get-in-Touch-with-Us-card p {
+    margin: 0px;
+}
+
+.contact-us-Get-in-Touch-with-Us-card h4{
+   margin: 0px;
 }

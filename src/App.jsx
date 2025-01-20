@@ -6,6 +6,7 @@ import { HomeOne } from "./pages/HomeOne";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Pages from "./pages/Pages";
 import AboutPage from "./pages/AboutPage";
+import ContactUsPage from "./pages/ContactUsPage";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" element={<HomeOne />} />
           <Route path="/pages" element={<Pages />} />
           <Route path="/about" element={<AboutPage />} />
+          <Route path="/contact-us" element={<ContactUsPage />} />
          </Routes>
        </BrowserRouter>
     </div>

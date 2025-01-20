@@ -34,7 +34,7 @@ const Header = () => {
                   </div>
 
                   <div className="nav-btn-wrap">
-                    <a href="#">Contact Us</a>
+                    <Link to="/contact-us">Contact Us</Link>
                   </div>
                 </div>
               </div>

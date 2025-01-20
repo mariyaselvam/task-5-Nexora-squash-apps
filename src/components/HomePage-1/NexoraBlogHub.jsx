@@ -1,10 +1,8 @@
 import React from 'react'
 import { NexoraBlogHubData } from "../../content/data"
 
-import Img1 from "../../assets/HomeOne/NexoraBlogHub/NexoraBlogListingImg-1.png"
 import Arrow from "../../assets/HomeOne/NexoraBlogHub/arrow-up.svg"
 import ArrowUP from "../../assets/HomeOne/NexoraBlogHub/arrow--up.svg"
-import BlogAuthorPic from "../../assets/HomeOne/NexoraBlogHub/blogAuthor-Pic.png"
 import { Link } from 'react-router-dom'
 
 

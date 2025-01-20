@@ -31,6 +31,16 @@ import TeamMembers3 from "../assets/AboutusPage/Team-Members-3.png"
 import TeamMembers4 from "../assets/AboutusPage/Team-Members-4.png"
 
 
+import Icon1 from "../assets/AboutusPage/icons/starIcon.svg"
+import Icon2 from "../assets/AboutusPage/icons/Work-Life-Balance.svg"
+import Icon3 from "../assets/AboutusPage/icons/Empowerment.svg"
+import Icon4 from "../assets/AboutusPage/icons/Teamwork.svg"
+
+import MailIcon from "../assets/ContactUs/GetinTouchwithUs/mailIcon.svg"
+import LocationIcon from "../assets/ContactUs/GetinTouchwithUs/location.svg"
+import CallIcon from "../assets/ContactUs/GetinTouchwithUs/call.svg"
+
+
 export const WhatSetsUsApartData = [
     {
         imgURL: icon,
@@ -347,4 +357,62 @@ export const AwesomeTeamMembersData = [
     },
 ]
 
+export const OurCultureEmpoweringExcellenceData = [
+    {
+     icon:Icon1,
+     tit: "Diversity & Inclusion",
+     para: "Fostering innovation, collaboration, and diversity to empower our team members."
+    },
+    {
+     icon:Icon2,
+     tit: "Work-Life Balance",
+     para: "We prioritize work-life balance, offering flexibility to ensure our team members are happy and healthy."
+    },
+    {
+     icon:Icon3,
+     tit: "Empowerment",
+     para: "We empower our team members to take ownership of their work and support them in their journey."
+    },
+    {
+     icon:Icon4,
+     tit: "Teamwork",
+     para: "With a team of over 40 dedicated professionals, we excel in collaboration, innovation."
+    }
+]
 
+export const ExploreExcitingOpportunitiesData = [
+    {
+        role:"Front End Developer",
+        type: "Remote"
+    },
+    {
+        role:"Back End Developer",
+        type: "On-Site"
+    },
+    {
+        role:"Brand Manager",
+        type: "On-Site"
+    },
+    {
+        role:"Ux Designer II",
+        type: "Remote"
+    },
+]
+
+export const GetinTouchwithUsData = [
+    {
+        icon : MailIcon,
+        para : "You can email us here",
+        tit : "hello@nexora"
+    },
+    {
+        icon : LocationIcon,
+        para : "Locations",
+        tit : "Get Directions"
+    },
+    {
+        icon : CallIcon,
+        para : "Or give us a call",
+        tit : "Book a Call"
+    }
+]

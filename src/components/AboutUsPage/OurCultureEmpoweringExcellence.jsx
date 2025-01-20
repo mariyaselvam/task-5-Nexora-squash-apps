@@ -1,4 +1,7 @@
 import React from 'react'
+import OurCultureEmpoweringExcellenceMainImg from "../../assets/AboutusPage/Our-Culture-Empowering-Excellence.png"
+
+import { OurCultureEmpoweringExcellenceData } from '../../content/data'
 
 const OurCultureEmpoweringExcellence = () => {
   return (
@@ -15,16 +18,33 @@ const OurCultureEmpoweringExcellence = () => {
             <div className="row">
                 <div className="col-lg-6">
                   <div className="Our-Culture-Empowering-Excellence-main-img">
-                    <img src="" alt="" />
+                    <img src={OurCultureEmpoweringExcellenceMainImg} alt="" />
                   </div>
                 </div>
                 <div className="col-lg-6">
                  <div className="Our-Culture-Empowering-Excellence-cont-wrap">
                   <div className="row">
-                    
-                    <div className="col-md-6">
 
+                    {
+                   OurCultureEmpoweringExcellenceData.map((items , index) => (
+                    <div key={index} className="col-md-6">
+                      <div className="Our-Culture-Empowering-Excellence-cont-card">
+                        <div className="Our-Culture-Empowering-Excellence-icon">
+                          <img src={items.icon} alt="" />
+                        </div>
+
+                        <h4 className="Our-Culture-Empowering-Excellence-card-tit">
+                          {items.tit}
+                        </h4>
+
+                        <p className="Our-Culture-Empowering-Excellence-para">
+                          {items.para}
+                        </p>
+                      </div>
                     </div>
+                   ))
+                    }
+                    
                   </div>
                  </div>
                 </div>

@@ -6,6 +6,8 @@ import AboutOurStory from '../components/AboutUsPage/AboutOurStory'
 import AboutUsOurMissionValues from '../components/AboutUsPage/AboutUsOurMissionValues'
 import AwesomeTeamMembers from '../components/AboutUsPage/AwesomeTeamMembers'
 import OurCultureEmpoweringExcellence from '../components/AboutUsPage/OurCultureEmpoweringExcellence'
+import ExploreExcitingOpportunities from '../components/AboutUsPage/ExploreExcitingOpportunities'
+import LetsMakeItHappen from '../components/AboutUsPage/LetsMakeItHappen'
 
 const AboutPage = () => {
   return (
@@ -16,6 +18,8 @@ const AboutPage = () => {
     <AboutUsOurMissionValues />
     <AwesomeTeamMembers />
     <OurCultureEmpoweringExcellence />
+    <ExploreExcitingOpportunities />
+    <LetsMakeItHappen />
     <Footer />
     </>
   )
