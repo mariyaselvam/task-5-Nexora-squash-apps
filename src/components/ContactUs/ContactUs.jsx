@@ -43,7 +43,22 @@ const ContactUs = () => {
                     </div>
                 </div>
                 <div className="col-md-6">
+                   <div className="contact-us-Get-in-Touch-with-Us-from-wrap">
+                    <h4 className="Get-in-Touch-with-Us-from-main-tit">
+                    Send Us a Message
+                    </h4>
+                    <p>
+                    Use our convenient contact form to reach out with questions, feedback, or collaboration inquiries.
+                    </p>
 
+                    <input className="Get-in-Touch-with-Us-Name" type="text" placeholder='Name' />
+
+                    <input className="Get-in-Touch-with-Us-email" type="email" placeholder='E-mail'  />
+
+                    <textarea className="Get-in-Touch-with-Us-textarea" placeholder='Message' name="" id=""></textarea>
+
+                    <button className="Get-in-Touch-with-Us-from-btn">Contact Us</button>
+                   </div>
                 </div>
             </div>
         </div>

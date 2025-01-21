@@ -137,6 +137,31 @@ export const WhatourClientssayAboutUsOne = [
         testimoRatingsImg: Ratings,
         testimoName:"John Doe",
         testmoPara:"The intuitive design and smart features of Capable made it easy to find meaningful connections. It's become my go-to app."
+    }
+    ,
+    {
+        testimoImg: Profile,
+        testimoRatingsImg: Ratings,
+        testimoName:"Cody Fisher",
+        testmoPara:"Capable’s features are fantastic for both meeting new people and staying connected with existing friends. It’s a must-have app."
+    },
+    {
+        testimoImg: Profile,
+        testimoRatingsImg: Ratings,
+        testimoName:"Arlene McCoy",
+        testmoPara:"Capable has truly transformed my social life. I've connected with amazing people and discovered new interests. Highly recommended!"
+    },
+    {
+        testimoImg: Profile,
+        testimoRatingsImg: Ratings,
+        testimoName:"James Taylor",
+        testmoPara:"The community support and engaging multimedia sharing on Capable have made it my favorite platform for connecting and sharing."
+    },
+    {
+        testimoImg: Profile,
+        testimoRatingsImg: Ratings,
+        testimoName:"John Doe",
+        testmoPara:"The intuitive design and smart features of Capable made it easy to find meaningful connections. It's become my go-to app."
     },
     {
         testimoImg: Profile,
@@ -414,5 +439,24 @@ export const GetinTouchwithUsData = [
         icon : CallIcon,
         para : "Or give us a call",
         tit : "Book a Call"
+    }
+]
+
+export const BlogBannerHighlightsData = [
+    {
+        count:"20K+",
+        sub : "Monthly readers"
+    },
+    {
+        count:"50+",
+        sub : "Excellence Awards"
+    },
+    {
+        count:"25K+",
+        sub : "Social Shares"
+    },
+    {
+        count:"120+",
+        sub : "Published Blogs"
     }
 ]

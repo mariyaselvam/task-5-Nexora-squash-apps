@@ -26,10 +26,10 @@ const Header = () => {
                   </div>
 
                   <div className="nav-menu-options">
-                    <Link className= {"nav-list " + (url === "/" ? "nav-list-active" : "") }  to="/" >Home</Link>
+                    <Link className= {"nav-list " + (url === "/" || url === "/pages" ? "nav-list-active" : "") }  to="/" >Home</Link>
                     <Link className= {"nav-list " + (url === "/about" ? "nav-list-active" : "") }  to="/about">Pages</Link>
                     <Link className="nav-list" to="#">Services</Link>
-                    <Link className="nav-list" to="#">Blog</Link>
+                    <Link className= {"nav-list " + (url === "/blog-listing" || url === "/blog-detail"  ? "nav-list-active" : "") } to="/blog-listing">Blog</Link>
                     <Link className="nav-list" to="#">Support</Link>
                   </div>
 

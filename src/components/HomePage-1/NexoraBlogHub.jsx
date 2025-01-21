@@ -23,7 +23,7 @@ const NexoraBlogHub = () => {
                         <div className="col-xl-4 col-md-6 col-sm-12">
                         <div className="Home-One-Nexora-Blog-listing-card">
                             <div className="Nexora-Blog-listing-card-main-img">
-                               <Link to="#">
+                               <Link to="/blog-detail">
                                 <img src={item.CardMainImg} alt="" />
                                 </Link>
                             </div>
@@ -32,7 +32,7 @@ const NexoraBlogHub = () => {
                                     {item.data}
                                 </p>
                                 <h4 className="Blog-listing-card-tit">
-                                    <Link to="#">
+                                    <Link to="/blog-detail">
                                     {item.tit}
                                     </Link>
                                 </h4>
@@ -55,7 +55,7 @@ const NexoraBlogHub = () => {
                                         {item.authorOpsition}
                                     </p>
                                     </div>
-                                    <Link to="#" className="blog-detail-page-link">
+                                    <Link to="/blog-detail" className="blog-detail-page-link">
                                         <img src={Arrow} alt="" />
                                     </Link>
                                 </div>

@@ -60,10 +60,11 @@ p{
 }
 
 .nav-btn-wrap > a{
-    padding: 18px 30.5px;
+    padding: 12px 30.5px;
     background-color: var(--primary);
     transition: 0.2s ease-in-out;
     border: 1px solid transparent;
+    border-radius: 30px;
 }
 
 .nav-btn-wrap > a:hover{
@@ -73,7 +74,7 @@ p{
 
 .primary-btn{
     display: inline-block;
-    padding: 18px 30.5px;
+    padding: 12px 30.5px;
     background-color: var(--primary);
     font-family: "Jost";
     font-size: 16px;
@@ -81,6 +82,7 @@ p{
     border: 1px solid transparent;
     transition: 0.2s ease-in-out;
     line-height: 26px;
+    border-radius: 30px;
 }
 
 .primary-btn:hover{
@@ -93,7 +95,7 @@ p{
 }
 
 .headerOne{
-    padding-top: 50px;
+    padding: 50px 0px 60px;
     width: 100%;
 }
 
@@ -121,7 +123,8 @@ p{
     font-family: "Jost";
     font-size: 16px;
     font-weight: 600;
-    line-height: 26px;    
+    line-height: 26px;
+
 }
 
 .Home-one-about-us-sec{
@@ -174,7 +177,7 @@ p{
     overflow-x: hidden;
     position: relative;
     height: 70px;
-    margin: 60px 0px;
+    margin: 60px auto;
 }
 
 .brand-Logo-ul-list{
@@ -270,7 +273,7 @@ p{
 }
 
 .What-Sets-Us-Apart-sec{
-    padding: 60px 0px;
+    padding: 60px 0px 30px;
 }
 
 .What-Sets-Us-Apart-card{
@@ -340,7 +343,7 @@ p{
 }
 
 .Home-one-Our-Expertise-sec{
-    padding: 60px 0px;
+    padding: 60px 0px 30px;
 }
 
 .Home-one-Our-Expertise-card-cont-wrap{
@@ -428,8 +431,25 @@ p{
     border-radius: 10px;
     overflow: hidden;
     margin-bottom: 30px;
-    background-color: var(--secondry);
+    /* background-color: var(--secondry); */
+    border: 1px solid var(--border);
     position: relative;
+}
+
+.Home-One-Nexora-Blog-listing-card::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0px;
+    bottom: 0px;
+    right: 0px;
+    z-index: -1;
+    transition: 0.5s ease;
+    background-color: var(--secondry);
+}
+
+.Home-One-Nexora-Blog-listing-card:hover::before{
+    height: 100%;
 }
 
 .Home-One-Nexora-Blog-Hub-sec .row>*{
@@ -471,7 +491,12 @@ p{
 }
 
 .Blog-listing-card-tit a:hover{
-   color: #5f5f5f;
+   color: var(--primary);
+}
+
+.Home-One-Nexora-Blog-listing-card:hover .blog-detail-page-link > img{
+    animation: 0.3s arrowanimation 0.2s ease;
+    filter: brightness(0) saturate(100%)
 }
 
 .blog-detail-page-link{
@@ -482,8 +507,13 @@ p{
     width: 50px;
     height: 50px;
     border-radius: 50%;
+    overflow: hidden;
     display: grid;
     place-content: center;
+}
+
+.blog-detail-page-link > img{
+    position: relative;
 }
 
 .Blog-listing-card-para{
@@ -503,6 +533,10 @@ p{
     font-weight: 700;
     line-height: 26px;
     margin: 0px;
+}
+
+.blog-author-name:hover a{
+    color: var(--primary);
 }
 
 .Home-one-Our-Expertise-main-img img{
@@ -542,8 +576,10 @@ p{
 }
 
 .home-one-footer-sec{
+    max-width: 1820px;
+    width: 100%;
     background-color: black;
-    margin: 50px 50px 0px;
+    /* margin: 50px 50px 0px; */
     border-radius: 50px 50px 0px 0px;
     padding: 100px 0px;
     color: #ffffff;
@@ -712,7 +748,7 @@ p{
 }
 
 .accordion-button{
-    padding: 28px 20px;
+    padding: 28px 80px 28px 20px;
     font-family: "Outfit";
     font-size: 24px;
     font-weight: 600;
@@ -845,9 +881,9 @@ p{
     }
 }
 
-.carousel:not(.basic) > *{
+/* .carousel:not(.basic) > *{
     flex: 0 0 100%;
-}
+} */
 
 .group{
     display: flex;
@@ -1573,6 +1609,11 @@ p{
     padding: 60px 0px;
 }
 
+.contact-us-Get-in-Touch-with-Us-sec .row>*{
+    padding-right: calc(var(--bs-gutter-x)* .5);
+    padding-left: calc(var(--bs-gutter-x)* .5);
+}
+
 .contact-us-Get-in-Touch-with-Us-card-iocn{
     background-color: var(--primary);
     width: 50px;
@@ -1590,6 +1631,18 @@ p{
     padding: 15px;
     align-items: center;
     gap: 20px;
+    position: relative;
+    max-width: 480px;
+    width: 100%;
+}
+
+.contact-us-Get-in-Touch-with-Us-card:hover .arrow-icon > img{
+    animation: arrowanimation 0.3s ease;
+    filter: brightness(0) saturate(100%)
+}
+
+.contact-us-Get-in-Touch-with-Us-card:hover .arrow-icon{
+    background-color: var(--primary);
 }
 
 .contact-us-Get-in-Touch-with-Us-card p {
@@ -1598,4 +1651,179 @@ p{
 
 .contact-us-Get-in-Touch-with-Us-card h4{
    margin: 0px;
+   font-family: "Outfit";
+   font-size: 16px;
+   font-weight: 700;
+   line-height: 26px;
+}
+
+.arrow-icon{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    display: grid;
+    place-content: center;
+    border: 1px solid var(--border);
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.arrow-icon > img{
+    position: relative;
+}
+
+.contact-us-Get-in-Touch-with-Us-from-wrap{
+    padding: 50px;
+    background-color: var(--secondry);
+    border-radius: 30px;
+}
+
+.contact-us-Get-in-Touch-with-Us-from-wrap input , textarea{
+   display: block;
+   width: 100%;
+   margin-bottom: 24px;
+   border-radius: 10px;
+   background-color: white;
+   border: 1px solid var(--border);
+   padding: 12px 16px;
+}
+
+.Get-in-Touch-with-Us-from-main-tit{
+    font-family: "Outfit";
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 38px;
+    margin-bottom: 24px;
+}
+
+.contact-us-Get-in-Touch-with-Us-from-wrap  p{
+   margin-bottom: 30px;
+}
+
+.Get-in-Touch-with-Us-from-btn{
+    width: 100%;
+    background-color: var(--primary);
+    padding: 12px 0px;
+    border: 1px solid transparent;
+    font-family: "Jost";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    transition: 0.2s ease-in-out;
+}
+
+.Get-in-Touch-with-Us-from-btn:hover{
+    background-color: white;
+    border: 1px solid black;
+}
+
+.blog-listing-page-wraper .Home-One-Nexora-Blog-Hub-tit-wrap{
+    display: none;
+}
+
+.blog-page-banner-sec{
+    padding: 60px 0px;
+}
+
+.blog-page-banner-cont-wrap{
+    text-align: center;
+    max-width: 849px;
+    width: 100%;
+    margin: 0rem auto;
+}
+
+.blog-page-banner-main-tit{
+    font-family: "Outfit";
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70px;
+    margin-bottom: 24px;
+}
+
+.blog-banner-highlights{
+    width: 100%;
+    max-width: 997px;
+    margin: 0rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 60px 0px 0px;
+}
+
+.blog-banner-highlights-count{
+    font-family: "Outfit";
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 65px;
+    margin-bottom: 5px;
+}
+
+.blog-banner-highlights-card{
+    padding: 0px 40px;
+    border-right: 1px dashed var(--border);
+    border-left: 1px dashed var(--border);
+    text-align: center;
+}
+
+.blog-banner-highlights-card > p{
+    font-family: "Jost";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+}
+
+.blog-page-Review-Carousel-card{
+    background-color: var(--secondry);
+    padding: 30px;
+    border-radius: 20px;
+    border: 1px solid var(--border);
+}
+
+.blog-page-Review-Carousel-card > p{
+    margin: 0px;
+}
+
+.blog-page-Review-Carouselca-card-footer-cont > h4{
+    font-family: "Outfit";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    margin: 0px;
+}
+
+.blog-page-Review-Carouselca-card-footer{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    border-top: 1px solid var(--border);
+    padding-top: 16px;
+    margin-top: 16px;
+}
+
+.blog-page-Review-Carouselca-card-footer-cont p{
+    margin: 0px;
+}
+
+.blog-page-Review-Carousel-sec{
+    padding: 60px 0px;
+}
+
+.Blog-Detail-Nav-wraper{
+    display: flex;
+    gap: 7px;
+}
+
+.Blog-Detail-Nav-Bar-sec{
+    padding: 60px 0px 30px;
+}
+
+.text-nav-span{
+    color: #5A5A67;
+}
+
+.Blog-Detail-Content-Sec{
+    padding: 30px 0px;
 }
