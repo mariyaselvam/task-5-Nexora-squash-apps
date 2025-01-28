@@ -9,9 +9,9 @@ const ExploreExcitingOpportunities = () => {
     <>
     <section className="Explore-Exciting-Opportunities-sec">
         <div className="Explore-Exciting-Opportunities-tit-wrap">
-            <h3 className="Explore-Exciting-Opportunities-main-tit">
+            <h2 className="Explore-Exciting-Opportunities-main-tit">
             Explore Exciting Opportunities
-            </h3>
+            </h2>
 
             <p>Join our team of digital experts and be part of a dynamic agency dedicated to innovation and excellence.</p>
         </div>
@@ -20,13 +20,13 @@ const ExploreExcitingOpportunities = () => {
             <div className="row">
                 {
                     ExploreExcitingOpportunitiesData.map((items , index) => (
-                        <div className="col-lg-6">
+                        <div key={index} className="col-lg-6">
                             <div className="Explore-Exciting-Opportunities-card">
-                                <h4 className="Explore-Exciting-Opportunities-card-tit">
+                                <h5 className="Explore-Exciting-Opportunities-card-tit">
                                     <Link to="#">
                                     {items.role}
                                     </Link>
-                                </h4>
+                                </h5>
 
                                 <p>{items.type}</p>
 
@@ -41,7 +41,9 @@ const ExploreExcitingOpportunities = () => {
                 }
             </div>
 
-            <p className="careers-email-link">Couldn’t find the desired role, Send your resume to <Link to="">careers@nexora.co</Link></p>
+            <p className="careers-email-link">Couldn’t find the desired role, Send your resume to  
+                 <a href="mailto:careers@nexora.co"> careers@nexora.co </a>
+            </p>
 
             </div>
         </div>

@@ -12,20 +12,20 @@ const WhatSetsUsApart = () => {
     <>
       <section className="What-Sets-Us-Apart-sec">
       <div className="What-Sets-Us-Apart-main-tit-wrap">
-        <h3 className="What-Sets-Us-Apart-main-tit">
+        <h2 className="What-Sets-Us-Apart-main-tit">
         What Sets Us Apart
-        </h3>
+        </h2>
         <p>Maximize your online potential with our customized and cutting-edgeweb development services.</p>
         </div>
         <div className="container">
             <div className="row">
                 { WhatSetsUsApartData.map((item, index) => (
-                    <div className="col-xl-4 col-md-6 col-sm-12">
+                    <div key={index} className="col-xl-4 col-md-6 col-sm-12">
                 <div key={index} className="What-Sets-Us-Apart-card">
                     <div className="What-Sets-Us-Apart-card-img">
                        <img src={item.imgURL} alt="" className="feature-icon" />
                     </div>
-                  <h3 className="What-Sets-Us-Apart-title">{item.tit}</h3>
+                  <h4 className="What-Sets-Us-Apart-title">{item.tit}</h4>
                   <p className="What-Sets-Us-Apart-para">{item.para}</p>
                 </div>
                 </div>

@@ -8,9 +8,9 @@ const WhoWeAre = () => {
             <div className="row">
                 <div className="col-xxl-6">
                    <div className="home-one-who-we-are-cont-wrap">
-                     <h3 className="home-one-who-we-are-main-tit">
+                     <h2 className="home-one-who-we-are-main-tit">
                      Driven By Creativity and Passion
-                     </h3>
+                     </h2>
 
                      <p className="home-one-who-we-are-para">At Nexora, we combine creativity and technology to deliver outstanding digital solutions. Our team of experts specializes in web design, branding, digital marketing, and more to help your business thrive.</p>
 

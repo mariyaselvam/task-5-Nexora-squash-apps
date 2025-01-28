@@ -8,9 +8,9 @@ const OurCultureEmpoweringExcellence = () => {
     <>
     <section className="Our-Culture-Empowering-Excellence-sec">
         <div className="Our-Culture-Empowering-Excellence-tit-wrap">
-            <h3 className="Our-Culture-Empowering-Excellence-main-tit">
+            <h2 className="Our-Culture-Empowering-Excellence-main-tit">
             Our Culture, Empowering Excellence
-            </h3>
+            </h2>
 
             <p>Experience a culture that values innovation, collaboration, and diversity. We empower our team to excel, fostering a dynamic environment where creativity thrives.</p>
         </div>

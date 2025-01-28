@@ -24,12 +24,10 @@ import NexoraBlogHub6 from "../assets/HomeOne/NexoraBlogHub/NexoraBlogListingImg
 import Profile from "../assets/HomeOne/Testimonials/test-profile.png"
 import Ratings from "../assets/HomeOne/Testimonials/rattings.svg"
 
-
 import TeamMembers1 from "../assets/AboutusPage/Team-Members-1.png"
 import TeamMembers2 from "../assets/AboutusPage/Team-Members-2.png"
 import TeamMembers3 from "../assets/AboutusPage/Team-Members-3.png"
 import TeamMembers4 from "../assets/AboutusPage/Team-Members-4.png"
-
 
 import Icon1 from "../assets/AboutusPage/icons/starIcon.svg"
 import Icon2 from "../assets/AboutusPage/icons/Work-Life-Balance.svg"
@@ -39,6 +37,44 @@ import Icon4 from "../assets/AboutusPage/icons/Teamwork.svg"
 import MailIcon from "../assets/ContactUs/GetinTouchwithUs/mailIcon.svg"
 import LocationIcon from "../assets/ContactUs/GetinTouchwithUs/location.svg"
 import CallIcon from "../assets/ContactUs/GetinTouchwithUs/call.svg"
+
+import BlogCardProfile1 from "../assets/BlogPage/ProfileIcon-1.png"
+import BlogCardProfile2 from "../assets/BlogPage/ProfileIcon-2.png"
+import BlogCardProfile3 from "../assets/BlogPage/ProfileIcon-3.png"
+import BlogCardProfile4 from "../assets/BlogPage/ProfileIcon-4.png"
+
+import ExpertiseIcon1 from "../assets/ServicesPage/Banner/Expertise-Icon-1.svg"
+import ExpertiseIcon2 from "../assets/ServicesPage/Banner/Expertise-Icon-2.svg"
+import ExpertiseIcon3 from "../assets/ServicesPage/Banner/Expertise-Icon-3.svg"
+
+import DesignDevelopment1 from "../assets/ServicesPage/OurServicesOverview/Design-Development-1.svg"
+import BrandingIdentity1 from "../assets/ServicesPage/OurServicesOverview/Branding-Identity-1.svg"
+import DigitalMarketing1 from "../assets/ServicesPage/OurServicesOverview/Digital-Marketing-1.svg"
+
+
+import DesignDevelopment2 from "../assets/ServicesPage/OurServicesOverview/Design-Development-2.svg"
+import BrandingIdentity2 from "../assets/ServicesPage/OurServicesOverview/Branding-Identity-2.svg"
+import DigitalMarketing2 from "../assets/ServicesPage/OurServicesOverview/Digital-Marketing-2.svg"
+
+
+import DesignDevelopment3 from "../assets/ServicesPage/OurServicesOverview/Design-Development-3.svg"
+import BrandingIdentity3 from "../assets/ServicesPage/OurServicesOverview/Branding-Identity-3.svg"
+import DigitalMarketing3 from "../assets/ServicesPage/OurServicesOverview/Digital-Marketing-3.svg"
+
+
+import DesignDevelopment4 from "../assets/ServicesPage/OurServicesOverview/Design-Development-4.svg"
+import BrandingIdentity4 from "../assets/ServicesPage/OurServicesOverview/Branding-Identity-4.svg"
+import DigitalMarketing4 from "../assets/ServicesPage/OurServicesOverview/Digital-Marketing-4.svg"
+
+
+import DesignDevelopment5 from "../assets/ServicesPage/OurServicesOverview/Design-Development-5.svg"
+import BrandingIdentity5 from "../assets/ServicesPage/OurServicesOverview/Branding-Identity-5.svg"
+import DigitalMarketing5 from "../assets/ServicesPage/OurServicesOverview/Digital-Marketing-5.svg"
+
+
+import DesignDevelopment6 from "../assets/ServicesPage/OurServicesOverview/Design-Development-6.svg"
+import BrandingIdentity6 from "../assets/ServicesPage/OurServicesOverview/Branding-Identity-6.svg"
+import DigitalMarketing6 from "../assets/ServicesPage/OurServicesOverview/Digital-Marketing-6.svg"
 
 
 export const WhatSetsUsApartData = [
@@ -460,3 +496,122 @@ export const BlogBannerHighlightsData = [
         sub : "Published Blogs"
     }
 ]
+
+export const SimilarBlogsYouMightLikeData = [
+    {
+        tit:"The Influence of Cultural Sensitivity in Global Branding",
+        para: "Cultural sensitivity in global branding involves adapting messages and strategies to respect local customs and values.",
+        name : "Guy Hawkins",
+        job: "Data Analyst",
+        Imgurl : BlogCardProfile1   
+    },
+    {
+        tit:"The Benefits of Dark Mode in User Interface Design",
+        para: "Cultural sensitivity in global branding involves adapting messages and strategies to respect local customs and values.",
+        name : "Marvin McKinney",
+        job: "Data Analyst",
+        Imgurl : BlogCardProfile2   
+    },
+    {
+        tit:"The Role of Cultural Awareness in International Branding",
+        para: "Cultural sensitivity in global branding involves adapting messages and strategies to respect local customs and values.",
+        name : "Annette Black",
+        job: "Data Analyst",
+        Imgurl : BlogCardProfile3  
+    },
+    {
+        tit:"The Influence of Cultural Sensitivity in Global Branding",
+        para: "Cultural sensitivity in global branding involves adapting messages and strategies to respect local customs and values.",
+        name : "Bessie Cooper",
+        job: "Data Analyst",
+        Imgurl : BlogCardProfile4  
+    }
+]
+
+export const OurRangeofExpertiseSecData = [
+    {
+        ImgURl : ExpertiseIcon1, 
+        tit: "Design & Development",
+        para : "Crafting custom websites tailored to your needs. Contact us for innovative online solutions.",
+        url : "#"
+    },
+    {
+        ImgURl : ExpertiseIcon2, 
+        tit: "Branding & Identity",
+        para : "Create a standout brand identity. Let's craft your brand story together. Contact us today.",
+        url : "#"
+    },
+    {
+        ImgURl : ExpertiseIcon3, 
+        tit: "Digital Marketing",
+        para : "Boost your online presence. Reach your audience with our SEO and digital marketing services.",
+        url : "#"
+    },
+]
+
+export const OurServicesOverviewData = [
+    {
+        CardIcon: ExpertiseIcon1,
+        tit : "Design & Development",
+        para : "Crafting custom websites tailored to your needs. Contact us for innovative online solutions.",
+        LinkURl : "#",
+        OurServicesOverviewIcon1 : DesignDevelopment1,
+        OurServicesOverviewIcon2 : DesignDevelopment2,
+        OurServicesOverviewIcon3 : DesignDevelopment3,
+        OurServicesOverviewIcon4 : DesignDevelopment4,
+        OurServicesOverviewIcon5 : DesignDevelopment5,
+        OurServicesOverviewIcon6 : DesignDevelopment6,
+        OurServicesOverviewPara1: "Custom Web Design",
+        OurServicesOverviewPara2: "Web Development",
+        OurServicesOverviewPara3: "UX Design",
+        OurServicesOverviewPara4: "Web Analytics",
+        OurServicesOverviewPara5: "App Development",
+        OurServicesOverviewPara6: "CMS Development",
+        styleOne: "first-top-child-card",
+        styleTwo : "last-top-child-card",
+        styleThree : "first-bottom-child-card"
+    },
+    {
+        CardIcon: ExpertiseIcon2,
+        tit : "Branding & Identity",
+        para : "Create a standout brand identity. Let's craft your brand story together. Contact us today.",
+        LinkURl : "#",
+        OurServicesOverviewIcon1 : BrandingIdentity1,
+        OurServicesOverviewIcon2 : BrandingIdentity2,
+        OurServicesOverviewIcon3 : BrandingIdentity3,
+        OurServicesOverviewIcon4 : BrandingIdentity4,
+        OurServicesOverviewIcon5 : BrandingIdentity5,
+        OurServicesOverviewIcon6 : BrandingIdentity6,
+        OurServicesOverviewPara1: "Logo Design",
+        OurServicesOverviewPara2: "Brand Strategy",
+        OurServicesOverviewPara3: "Visual Identity",
+        OurServicesOverviewPara4: "Print Design",
+        OurServicesOverviewPara5: "Digital Branding",
+        OurServicesOverviewPara6: "Brand Guidelines",
+        styleOne: "first-top-child-card",
+        styleTwo : "last-top-child-card",
+        styleThree : "first-bottom-child-card"
+    },
+    {
+        CardIcon: ExpertiseIcon3,
+        tit : "Digital Marketing",
+        para : "Boost your online presence. Reach your audience with our SEO and digital marketing services.",
+        LinkURl : "#",
+        OurServicesOverviewIcon1 : DigitalMarketing1,
+        OurServicesOverviewIcon2 : DigitalMarketing2,
+        OurServicesOverviewIcon3 : DigitalMarketing3,
+        OurServicesOverviewIcon4 : DigitalMarketing4,
+        OurServicesOverviewIcon5 : DigitalMarketing5,
+        OurServicesOverviewIcon6 : DigitalMarketing6,
+        OurServicesOverviewPara1: "SEO",
+        OurServicesOverviewPara2: "Content Marketing",
+        OurServicesOverviewPara3: "Media Marketing",
+        OurServicesOverviewPara4: "Email Marketing",
+        OurServicesOverviewPara5: "Influencer Marketing",
+        OurServicesOverviewPara6: "Analytics & Reporting",
+        styleOne: "first-top-child-card",
+        styleTwo : "last-top-child-card",
+        styleThree : "first-bottom-child-card"
+    }
+]
+

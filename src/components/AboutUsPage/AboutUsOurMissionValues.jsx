@@ -8,16 +8,16 @@ const AboutUsOurMissionValues = () => {
     <>
     <section className="About-Us-Our-Mission-Values-sec">
          <div className="About-Us-Our-Mission-Values-tit-wrap">
-            <h3 className="About-Us-Our-Mission-Values-min-tit">
+            <h2 className="About-Us-Our-Mission-Values-min-tit">
             Our Mission & Values
-            </h3>
+            </h2>
             <p>We are committed to building strong relationships with our customers, partners, and employees, rooted in trust and mutual</p>
          </div>
         <div className="container">
             <div className="row">
              {
               firstFiveItems.map((items , index) => (
-                <div className="col-xl-6 col-lg-6">
+                <div key={index} className="col-xl-6 col-lg-6">
                   <div className="About-Us-Our-Mission-Values-card">
                     <div className="About-Us-Our-Mission-Values-card-img">
                       <img src={items.iocnURL} alt="" />
@@ -36,7 +36,7 @@ const AboutUsOurMissionValues = () => {
             <div className="row">
              {
               remainingItems.map((items , index) => (
-                <div className="col-xl-3 col-lg-6">
+                <div key={index} className="col-xl-3 col-lg-6">
                   <div style={{margin:0}} className="About-Us-Our-Mission-Values-card">
                     <div className="About-Us-Our-Mission-Values-card-img">
                       <img src={items.iocnURL} alt="" />

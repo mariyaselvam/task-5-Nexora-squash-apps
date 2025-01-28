@@ -8,9 +8,9 @@ const BlogPageBanner = () => {
         <div className="container">
             <div className="row">
                 <div className="blog-page-banner-cont-wrap">
-                     <h1 className="blog-page-banner-main-tit">
+                     <h2 className="blog-page-banner-main-tit">
                      Nexora Insights Your Source for Digital Inspiration
-                     </h1>
+                     </h2>
 
                      <p>Welcome to Nexora Insights, where we share our expertise, ideas, and industry trends to inspire and empower your digital journey.</p>
                 </div>

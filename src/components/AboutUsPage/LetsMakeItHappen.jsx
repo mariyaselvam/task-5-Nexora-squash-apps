@@ -14,9 +14,9 @@ const LetsMakeItHappen = () => {
     <>
     <section className="Lets-Make-It-Happen-sec">
         <div className="Lets-Make-It-Happen-tit-wrap">
-            <h3 className="Lets-Make-It-Happen-main-tit">
+            <h2 className="Lets-Make-It-Happen-main-tit">
             Let’s Make It Happen
-            </h3>
+            </h2>
             <p>
             Explore exciting career opportunities and become part of our innovative and dynamic team.
             </p>

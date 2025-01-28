@@ -6,9 +6,9 @@ const AboutOurStory = () => {
     <>
      <section className="About-Our-Story-sec">
         <div className="About-Our-Story-tit-wrap">
-            <h3 className="About-Our-Story-main-tit">
+            <h2 className="About-Our-Story-main-tit">
             Over The Years
-            </h3>
+            </h2>
 
             <p>Nexora has evolved from a small, ambitious team to a globally recognized agency redefining digital experiences.</p>
         </div>

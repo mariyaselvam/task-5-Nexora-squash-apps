@@ -11,9 +11,9 @@ const FaqSec = () => {
     <>
       <section className="home-one-faq-sec">
         <div className="home-one-faq-tit-wrap">
-          <h3 className="home-one-faq-main-tit">
+          <h2 className="home-one-faq-main-tit">
             Got Questions? We have got Answers
-          </h3>
+          </h2>
           <p>
             Still you have any questions? Contact our Team via
             support@Nexora.digital.com

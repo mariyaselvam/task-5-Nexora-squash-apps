@@ -8,9 +8,9 @@ const AwesomeTeamMembers = () => {
     <>
     <section className="Awesome-Team-Members-sec">
         <div className="Awesome-Team-Members-tit-wrap">
-            <h3 className="Awesome-Team-Members-main-tit">
+            <h2 className="Awesome-Team-Members-main-tit">
             Awesome Team Members
-            </h3>
+            </h2>
 
             <p>We are a dedicated group of individuals driven by our shared vision of making a real difference in the world.</p>
         </div>
@@ -18,7 +18,7 @@ const AwesomeTeamMembers = () => {
             <div className="row">
                   {
                    AwesomeTeamMembersData.map((items , index) => (
-                    <div className="col-lg-3">
+                    <div key={index} className="col-lg-3">
                         <div className="Awesome-Team-Members-card">
                             <div className="Awesome-Team-Members-img">
                             <Link to="#">
@@ -29,9 +29,9 @@ const AwesomeTeamMembers = () => {
                             <div className="Awesome-Team-Members-card-cont-wrap">
                              
                               <Link to="#">
-                            <h4 className="Awesome-Team-Members-name">
+                            <h5 className="Awesome-Team-Members-name">
                                 {items.Name}
-                            </h4>
+                            </h5>
                             </Link>
 
                             <span> {items.Job} </span>

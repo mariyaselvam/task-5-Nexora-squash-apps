@@ -17,9 +17,9 @@ const TestimonialsSec = () => {
     <>
      <section className="home-one-testimonials-sec">
         <div className="home-one-testimonials-tit-wrap">
-            <h3 className="home-one-testimonials-main-tit">
+            <h2 className="home-one-testimonials-main-tit">
             What our Clients say About Us
-            </h3>
+            </h2>
             <p>Read testimonials from satisfied clients, sharing their experiences and successes with our services and solutions.</p>
         </div>
         
@@ -43,8 +43,8 @@ const TestimonialsSec = () => {
                     {
 
                             WhatourClientssayAboutUsOne.map((item, index) => (
-                                <SwiperSlide>
-                                <div key={index} class="card">
+                                <SwiperSlide key={index}>
+                                <div  className="card">
                                 <div  className="testimonial-card-wrap">
                                         <div style={{flexDirection:"row"}} className="testimonial-card-top">
                                             <div className="testimonial-card-profile-img">
@@ -65,8 +65,8 @@ const TestimonialsSec = () => {
                         {
 
                             WhatourClientssayAboutUsOne.map((item, index) => (
-                                <SwiperSlide>
-                                <div key={index} class="card">
+                                <SwiperSlide key={index}>
+                                <div  className="card">
                                 <div className="testimonial-card-wrap">
                                         <div style={{flexDirection:"row"}} className="testimonial-card-top">
                                             <div className="testimonial-card-profile-img">
@@ -108,8 +108,8 @@ const TestimonialsSec = () => {
                     {
 
                             WhatourClientssayAboutUsOne.map((item, index) => (
-                                <SwiperSlide>
-                                <div key={index} class="card">
+                                <SwiperSlide key={index}>
+                                <div  className="card">
                                 <div className="testimonial-card-wrap">
                                         <div style={{flexDirection:"row-reverse"}} className="testimonial-card-top">
                                             <div className="testimonial-card-profile-img">
@@ -130,8 +130,8 @@ const TestimonialsSec = () => {
                         {
 
                             WhatourClientssayAboutUsOne.map((item, index) => (
-                                <SwiperSlide>
-                                <div key={index} class="card">
+                                <SwiperSlide key={index}>
+                                <div  className="card">
                                 <div className="testimonial-card-wrap">
                                         <div style={{flexDirection:"row-reverse"}} className="testimonial-card-top">
                                             <div className="testimonial-card-profile-img">

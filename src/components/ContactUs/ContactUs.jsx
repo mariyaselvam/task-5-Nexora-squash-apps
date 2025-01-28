@@ -14,15 +14,15 @@ const ContactUs = () => {
             <div className="row">
                 <div className="col-md-6">
                     <div className="contact-us-Get-in-Touch-with-Us-cont-wrap">
-                        <h3 className="contact-us-Get-in-Touch-with-Us-main-tit">
+                        <h2 className="contact-us-Get-in-Touch-with-Us-main-tit">
                         Get in Touch with Us
-                        </h3>
+                        </h2>
 
                         <p>Have a question or need more information about our services? Fill out the form, and our team will get back to you as soon as possible.</p>
 
                         {
                             GetinTouchwithUsData.map((items , index) => (
-                         <div className="contact-us-Get-in-Touch-with-Us-card">
+                         <div key={index} className="contact-us-Get-in-Touch-with-Us-card">
                             <div className="contact-us-Get-in-Touch-with-Us-card-iocn">
                                 <img src={items.icon} alt="" />
                             </div>

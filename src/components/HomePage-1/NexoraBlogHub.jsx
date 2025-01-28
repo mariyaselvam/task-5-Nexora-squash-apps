@@ -11,16 +11,16 @@ const NexoraBlogHub = () => {
     <>
     <section className="Home-One-Nexora-Blog-Hub-sec">
         <div className="Home-One-Nexora-Blog-Hub-tit-wrap">
-        <h3 className="Home-One-Nexora-Blog-Hub-main-tit">
+        <h2 className="Home-One-Nexora-Blog-Hub-main-tit">
         Nexora Blog Hub
-        </h3>
+        </h2>
         <p>At Nexora, we're passionate about sharing insights, tips, and trends to help you navigate the ever-evolving world of digital marketing and web development.</p>
         </div>
         <div className="container">
             <div className="row">
                    {
                     NexoraBlogHubData.map((item , index) => (
-                        <div className="col-xl-4 col-md-6 col-sm-12">
+                        <div key={index} className="col-xl-4 col-md-6 col-sm-12">
                         <div className="Home-One-Nexora-Blog-listing-card">
                             <div className="Nexora-Blog-listing-card-main-img">
                                <Link to="/blog-detail">
@@ -46,11 +46,11 @@ const NexoraBlogHub = () => {
                                          </Link>
                                     </div>
                                     <div className="blog-author-content">
-                                    <h5 className="blog-author-name">
+                                    <h6 className="blog-author-name">
                                         <Link to="#">
                                         {item.authorName}
                                         </Link>
-                                    </h5>
+                                    </h6>
                                     <p > 
                                         {item.authorOpsition}
                                     </p>
@@ -64,10 +64,9 @@ const NexoraBlogHub = () => {
                     </div>
                     ))
                    }
-                
             </div>
         </div>
-        <Link className="Nexora-Blog-listing-btn secondary-btn" to="#">
+        <Link className="Nexora-Blog-listing-btn secondary-btn" to="/blog-listing">
         View All Blogs
         <img src={ArrowUP} alt="" />
         </Link>

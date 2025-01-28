@@ -10,6 +10,49 @@
     opacity: 1; */
 }
 
+h1{
+    font-family: "Outfit";
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 80px;
+}
+
+h2{
+    font-family: "Outfit";
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+h3{
+    font-family: "Outfit";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46px;
+}
+
+h4{
+    font-family: "Outfit";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 38px;
+}
+
+h5{
+    font-family: "Outfit";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+h6{
+    font-family: "Outfit";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    
+}
+
 section{
     max-width: 3000px;
     margin: 0rem auto;
@@ -221,10 +264,6 @@ p{
 }
 
 .home-one-who-we-are-main-tit{
-    font-family: "Outfit";
-    font-size: 60px;
-    font-weight: 700;
-    line-height: 70px;
     margin-bottom: 30px;
 }
 
@@ -256,10 +295,6 @@ p{
 }
 
 .What-Sets-Us-Apart-main-tit{
-    font-family: "Outfit";
-    font-size: 60px;
-    font-weight: 700;
-    line-height: 70px;
     margin-bottom: 30px;
 }
 
@@ -312,10 +347,6 @@ p{
 
 .What-Sets-Us-Apart-title{
     margin-bottom: 12px;
-    font-family: "Outfit";
-    font-size: 28px;
-    font-weight: 700;
-    line-height: 38px;
 }
 
 .Home-one-Our-Expertise-tit-wrap{
@@ -327,10 +358,6 @@ p{
 }
 
 .Home-one-Our-Expertise-main-tit{
-    font-family: "Outfit";
-    font-size: 60px;
-    font-weight: 700;
-    line-height: 70px;
     margin-bottom: 26px;
 }
 
@@ -371,10 +398,6 @@ p{
 }
 
 .Home-one-Our-Expertise-card-tit-wrap h4{
-    font-family: "Outfit";
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 34px;
     margin: 0px;
 }
 
@@ -420,10 +443,6 @@ p{
 }
 
 .Home-One-Nexora-Blog-Hub-main-tit{
-    font-family: "Outfit";
-    font-size: 60px;
-    font-weight: 700;
-    line-height: 70px;
     margin-bottom: 30px;
 }
 
@@ -431,7 +450,6 @@ p{
     border-radius: 10px;
     overflow: hidden;
     margin-bottom: 30px;
-    /* background-color: var(--secondry); */
     border: 1px solid var(--border);
     position: relative;
 }
@@ -483,15 +501,11 @@ p{
 }
 
 .Blog-listing-card-tit{
-    font-family: "Outfit";
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 34px;
     margin-bottom: 16px;
 }
 
 .Blog-listing-card-tit a:hover{
-   color: var(--primary);
+   color: #5A5A67;
 }
 
 .Home-One-Nexora-Blog-listing-card:hover .blog-detail-page-link > img{
@@ -536,7 +550,7 @@ p{
 }
 
 .blog-author-name:hover a{
-    color: var(--primary);
+    color: #5A5A67;
 }
 
 .Home-one-Our-Expertise-main-img img{
@@ -577,14 +591,14 @@ p{
 
 .home-one-footer-sec{
     max-width: 1820px;
-    width: 100%;
+    width: 98%;
     background-color: black;
-    /* margin: 50px 50px 0px; */
     border-radius: 50px 50px 0px 0px;
     padding: 100px 0px;
     color: #ffffff;
     position: relative;
     overflow: hidden;
+    margin: 0px auto;
 }
 
 .home-one-footer-sec *{
@@ -627,14 +641,10 @@ p{
 .home-one-company-links-tit , 
 .home-one-Get-In-Touch-links-tit{
     margin-bottom: 20px;
-    font-family: "Outfit";
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 28px;
 }
 
 .home-one-footer-sec a:hover{
-   color: white;
+   color: var(--primary);
 }
 
 .home-one-usefull-links-wrap > a , 
@@ -729,10 +739,6 @@ p{
 }
 
 .home-one-faq-main-tit{
-    font-family: "Outfit";
-    font-size: 60px;
-    font-weight: 700;
-    line-height: 70px;
     margin-bottom: 26px;
 }
 
@@ -812,10 +818,6 @@ p{
 }
 
 .home-one-testimonials-main-tit{
-    font-family: "Outfit";
-    font-size: 60px;
-    font-weight: 700;
-    line-height: 70px;
     margin-bottom: 26px;
 }
 
@@ -881,9 +883,6 @@ p{
     }
 }
 
-/* .carousel:not(.basic) > *{
-    flex: 0 0 100%;
-} */
 
 .group{
     display: flex;
@@ -906,13 +905,16 @@ p{
 }
 
 .testimonial-card-wrap{
-    background: linear-gradient(180deg, #F4FFEE 23%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(180deg, #F4FFEE 23%, rgba(255, 255, 255, 0) 100%) , url("../../assets/HomeOne/Testimonials/Frame1.svg");
     background-color: #eaffdd;
     height: 100%;
     width: 100%;
     padding: 30px;
     position: relative;
     text-align: left;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .testimonial-card-wrap > p{
@@ -1014,7 +1016,6 @@ p{
     max-width: 730px;
     width: 100%;
     margin: 0rem auto 80px;
-
 }
 
 .Home-two-What-Sets-Us-Apart-tit-wrap > p{
@@ -1029,7 +1030,7 @@ p{
     margin-bottom: 30px;
 }
 
-.first-top-child-card{
+ .first-top-child-card{
     border-bottom: 1px dotted var(--border);
     border-right: 1px dotted var(--border);
 }
@@ -1131,10 +1132,6 @@ p{
 }
 
 .about-us-page-banner-main-tit{
-    font-family: "Outfit";
-    font-size: 60px;
-    font-weight: 700;
-    line-height: 70px;
     margin-bottom: 30px;
 }
 
@@ -1155,10 +1152,6 @@ p{
 }
 
 .About-Our-Story-main-tit{
-    font-family: "Outfit";
-    font-size: 60px;
-    font-weight: 700;
-    line-height: 70px;
     margin-bottom: 30px;
 }
 
@@ -1168,6 +1161,12 @@ p{
     position: relative;
     border-radius: 10px;
     border:  1px solid var(--border);
+    transition: 0.2s ease;
+}
+
+.About-Our-Story-card:hover{
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px var(--border);
 }
 
 .About-Our-Story-card:hover::before{
@@ -1234,22 +1233,11 @@ p{
     margin-bottom: 80px;
 }
 
-.About-Us-Our-Mission-Values-tit{
-    font-family: "Outfit";
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 34px;
-}
-
 .About-Us-Our-Mission-Values-sec{
     padding: 60px 0px;
 }
 
 .About-Us-Our-Mission-Values-min-tit{
-    font-family: "Outfit";
-    font-size: 60px;
-    font-weight: 700;
-    line-height: 70px;
     margin-bottom: 30px;
 }
 
@@ -1274,10 +1262,12 @@ p{
     border: 1px solid var(--border);
     margin-bottom: 30px;
     border-radius: 10px;
+    transition: 0.2s ease;
 }
 
 .About-Us-Our-Mission-Values-card:hover{
     background-color: var(--secondry);
+    box-shadow: 0px 0px 10px 0px var(--border);
 }
 
 .About-Us-Our-Mission-Values-sec .row>*{
@@ -1294,10 +1284,6 @@ p{
 }
 
 .Awesome-Team-Members-main-tit{
-    font-family: "Outfit";
-    font-size: 60px;
-    font-weight: 700;
-    line-height: 70px;
     margin-bottom: 30px;
 }
 
@@ -1318,7 +1304,14 @@ p{
 .Awesome-Team-Members-card{
     border-radius: 20px;
     overflow: hidden;
+    transition: 0.2s ease;
+    position: relative;
     border: 2px solid var(--border);
+}
+
+.Awesome-Team-Members-card:hover{
+   transform: scale(1.01);
+   box-shadow: 3px 3px 2px 0px var(--border);
 }
 
 .Awesome-Team-Members-card-cont-wrap{
@@ -1327,10 +1320,6 @@ p{
 }
 
 .Awesome-Team-Members-name{
-    font-family: "Outfit";
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 30px;
     margin-bottom: 10px;
 }
 
@@ -1363,10 +1352,6 @@ p{
 }
 
 .Our-Culture-Empowering-Excellence-main-tit{
-    font-family: "Outfit";
-    font-size: 60px;
-    font-weight: 700;
-    line-height: 70px;
     margin-bottom: 30px;   
 }
 
@@ -1391,10 +1376,6 @@ p{
 
 .Our-Culture-Empowering-Excellence-card-tit{
     margin-bottom: 24px;
-    font-family: "Outfit";
-    font-size: 28px;
-    font-weight: 700;
-    line-height: 38px;
 }
 
 .Our-Culture-Empowering-Excellence-main-img{
@@ -1415,18 +1396,14 @@ p{
 }
 
 .Explore-Exciting-Opportunities-main-tit{
-    font-family: "Outfit";
-    font-size: 60px;
-    font-weight: 700;
-    line-height: 70px;
     margin-bottom: 30px;
 }
 
 .Explore-Exciting-Opportunities-card{
     border: 1px solid var(--border);
-    background-color: var(--secondry);
+    background-color: white;
     margin-bottom: 30px;
-    padding: 16px 30px;
+    padding: 16px 100px 16px 30px ;
     position: relative;
     border-radius: 10px;
 }
@@ -1454,16 +1431,14 @@ p{
     filter: brightness(0) saturate(100%)
 }
 
-.Explore-Exciting-Opportunities-card-tit{
-    font-family: "Outfit";
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 30px;
-}
 
 .Explore-Exciting-Opportunities-sec .row>* {
     padding-right: calc(var(--bs-gutter-x)* .5);
     padding-left: calc(var(--bs-gutter-x)* .5);
+}
+
+.Explore-Exciting-Opportunities-card:hover{
+    background-color: var(--secondry);
 }
 
 .Explore-Exciting-Opportunities-card:hover .Explore-Exciting-Opportunities-card-icon{
@@ -1497,6 +1472,9 @@ p{
 .careers-email-link{
     padding: 0px 20px;
     margin: 0px;
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
 }
 
 .careers-email-link a{
@@ -1530,10 +1508,6 @@ p{
 }
 
 .Lets-Make-It-Happen-main-tit{
-    font-family: "Outfit";
-    font-size: 60px;
-    font-weight: 700;
-    line-height: 70px;
     margin-bottom: 30px;
 }
 
@@ -1598,10 +1572,6 @@ p{
 }
 
 .contact-us-Get-in-Touch-with-Us-main-tit{
-    font-family: "Outfit";
-    font-size: 60px;
-    font-weight: 700;
-    line-height: 70px;
     margin-bottom: 24px;
 }
 
@@ -1626,14 +1596,19 @@ p{
 .contact-us-Get-in-Touch-with-Us-card{
     display: flex;
     margin-bottom: 20px;
-    background-color: var(--secondry);
+    background-color: white;
     border-radius: 10px;
     padding: 15px;
+    border: 1px solid var(--border);
     align-items: center;
     gap: 20px;
     position: relative;
     max-width: 480px;
     width: 100%;
+}
+
+.contact-us-Get-in-Touch-with-Us-card:hover{
+    background-color: var(--secondry);
 }
 
 .contact-us-Get-in-Touch-with-Us-card:hover .arrow-icon > img{
@@ -1692,10 +1667,6 @@ p{
 }
 
 .Get-in-Touch-with-Us-from-main-tit{
-    font-family: "Outfit";
-    font-size: 28px;
-    font-weight: 700;
-    line-height: 38px;
     margin-bottom: 24px;
 }
 
@@ -1721,6 +1692,10 @@ p{
 }
 
 .blog-listing-page-wraper .Home-One-Nexora-Blog-Hub-tit-wrap{
+    display: none;
+}
+
+.blog-listing-page-wraper .Nexora-Blog-listing-btn{
     display: none;
 }
 
@@ -1786,11 +1761,7 @@ p{
     margin: 0px;
 }
 
-.blog-page-Review-Carouselca-card-footer-cont > h4{
-    font-family: "Outfit";
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 28px;
+.blog-page-Review-Carouselca-card-footer-cont > h6{
     margin: 0px;
 }
 
@@ -1817,7 +1788,7 @@ p{
 }
 
 .Blog-Detail-Nav-Bar-sec{
-    padding: 60px 0px 30px;
+    padding: 40px 0px 30px;
 }
 
 .text-nav-span{
@@ -1825,5 +1796,423 @@ p{
 }
 
 .Blog-Detail-Content-Sec{
-    padding: 30px 0px;
+    padding: 0px 0px 50px;
+
+}
+
+.Get-in-Touch-with-Us-Name:focus-visible , 
+.Get-in-Touch-with-Us-email:focus-visible , 
+.Get-in-Touch-with-Us-textarea:focus-visible{
+   outline: none;
+}
+
+.Blog-Detail-Content-main-tit{
+    /* font-family: "Outfit";
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 65px; */
+    margin-bottom: 30px;
+}
+
+.Blog-Detail-Content-img{
+    margin-bottom: 30px;
+    border-radius: 30px;
+    overflow: hidden;
+    width: 100%;
+    max-width: max-content;
+}
+
+.Blog-Detail-Content-Summary-card{
+    padding: 30px;
+    background-color: var(--secondry);
+    border-radius: 20px;
+}
+
+
+.blog-detail-border-top{
+    padding-top: 40px;
+    border-top: 1px solid var(--border);
+    margin-top: 50px;
+}
+
+.Blog-Detail-Content-wraper-nd-img{
+    padding: 30px 0px 0px 50px;
+    border-top: 1px solid var(--border);
+    border-left: 1px solid var(--border);
+}
+
+.blog-detail-auther-card{
+    padding: 30px;
+    background-color: var(--secondry);
+    border-radius: 10px;
+    border: 1px solid var(--border);
+}
+
+.blog-detail-auther-card-wraper{
+    padding: 30px 50px 0px 0px;
+    border-top:1px solid var(--border) ;
+}
+
+.blog-detail-auther-card-social-links{
+    display: flex;
+    gap: 12px;
+}
+
+.blog-detail-auther-card-social-links a:hover{
+    background-color: var(--dark);
+}
+
+.blog-detail-auther-card-social-links a:hover img{
+    filter: brightness(0) saturate(100%) invert(100%) sepia(63%) saturate(6906%) hue-rotate(26deg) brightness(107%) contrast(111%);
+}
+
+.blog-detail-auther-card-social-links a{
+    background-color: transparent;
+    border: 1px solid black;
+    width: 45px;
+    height: 45px;
+    display: grid;
+    place-content: center;
+    border-radius: 5px;
+}
+
+.blog-detail-auther-card-social-links img{
+    filter: brightness(0) saturate(100%);
+}
+
+.auther-tit-about{
+    font-family: "Outfit";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.blog-detail-auther-card-auther-details{
+    display: flex;
+    gap: 12px;
+    margin-bottom: 30px;
+}
+
+.blog-detail-auther-card-auther-details p{
+    font-family: "Jost";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0px;
+}
+
+.blog-detail-auther-card-auther-details-cont h4{
+    font-family: "Outfit";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 2px;
+}
+
+.Similar-Blogs-might-like-card{
+    padding: 30px;
+    background-color: var(--secondry);
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border: 1px solid var(--border);
+    transition: 0.3s ease ;
+
+}
+
+.Similar-Blogs-might-like-card:hover .Similar-Blogs-might-like-inner-arrow{
+   background-color: var(--primary);
+}
+
+.Similar-Blogs-might-like-card:hover{
+    background-color: white;
+}
+
+.Similar-Blogs-might-like-card > p{
+    margin-bottom: 40px;
+}
+
+.Similar-Blogs-might-like-sec .row>*{
+    padding-right: calc(var(--bs-gutter-x)* .5);
+    padding-left: calc(var(--bs-gutter-x)* .5);
+}
+
+.Similar-Blogs-might-like-mini-tit{
+    padding: 10px 16px;
+    background-color: var(--dark);
+    color: var(--primary);
+    border-radius: 30px;
+    display: block;
+    width: max-content;
+    margin-bottom: 20px;
+    font-family: "Outfit";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    border: 1px solid var(--border);
+}
+
+.Similar-Blogs-might-like-inner-card{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    position: relative;
+}
+
+.Similar-Blogs-might-like-inner-cont-wrap h5{
+    margin: 0px;
+}
+
+.Similar-Blogs-might-like-inner-cont-wrap p{
+    margin: 0px;
+}
+
+.Similar-Blogs-might-like-inner-cont-tit{
+    font-family: "Outfit";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.Similar-Blogs-might-like-inner-cont-tit:hover a{
+    color: #5A5A67;
+}
+
+.Similar-Blogs-might-like-main-tit{
+    font-family: "Outfit";
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 38px;
+    margin-bottom: 20px;
+}
+
+.Similar-Blogs-might-like-main-tit:hover{
+    color: #5A5A67;
+}
+
+.Similar-Blogs-might-like-tit-wraper h3{
+    font-family: "Outfit";
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 65px;
+    margin-bottom: 70px;
+}
+
+.Similar-Blogs-might-like-inner-arrow{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid var(--border);
+    display: grid;
+    place-content: center;
+    position: absolute;
+    right: 0px;
+    bottom: 10px;
+}
+
+.Similar-Blogs-might-like-sec{
+    padding: 60px 0px;
+}
+
+.Similar-Blogs-might-like-inner-arrow{
+    overflow: hidden;
+}
+
+.Similar-Blogs-might-like-inner-arrow img{
+    position: relative;
+}
+
+.Similar-Blogs-might-like-card:hover .Similar-Blogs-might-like-inner-arrow  img{
+    animation: arrowanimation 0.3s ease;
+}
+
+.Similar-Blogs-might-like-card:hover .Similar-Blogs-might-like-mini-tit {
+   background-color: white;
+   border: 1px solid var(--border);
+   color: black;
+}
+
+.home-one-footer-mail-link-btn{
+    margin-bottom: 20px;
+}
+
+.Services-Page-Banner-sec{
+    padding: 60px 0px;
+}
+
+.Services-Page-Banner-mini-tit{
+    display: flex;
+    gap: 10px;
+    padding: 8px 20px;
+    border-radius: 50px;
+    background-color: var(--secondry);
+    width: max-content;
+    margin-bottom: 30px;
+}
+
+.Services-Page-Banner-mini-tit-imgs img{
+   margin-left: -7px;
+}
+
+.Services-Page-Banner-main-tit{
+    margin-bottom: 24px;
+}
+
+.Services-Page-Banner-cont-wraper{
+    max-width: 80%;
+    width: 100%;
+}
+
+.Services-Page-Banner-cont-wraper p{
+    margin-bottom: 50px;
+}
+
+.Services-Page-Banner-imgs-wraper{
+    display: flex;
+    flex-basis: 1fr 1fr;
+    flex-wrap: wrap;
+}
+
+.Services-Page-Banner-imgs-wraper > *{
+    width: 50%;
+} 
+
+.Services-Page-Banner-imgs-2{
+  padding: 44px 46px 17px 24px;
+}
+
+.Services-Page-Banner-imgs-inner-card{
+    height: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    background: url("../../assets/ServicesPage/Banner/star.svg") , var(--secondry);
+    background-repeat: no-repeat;
+    background-position: 100% 65px;
+}
+
+.Services-Page-Banner-imgs-inner-card p{
+    font-family: "Jost";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    max-width: 60%;
+    width: 100%;
+}
+
+.Services-Page-Banner-imgs-3{
+    padding: 20px 20px 41px 50px;
+}
+
+.Services-Page-Banner-imgs-1{
+    display: flex;
+    justify-content: end;
+}
+
+.Our-Range-of-Expertise-sec{
+    padding: 60px 0px;
+}
+
+.Our-Range-of-Expertise-sec .row>*{
+    padding-right: calc(var(--bs-gutter-x)* .5);
+    padding-left: calc(var(--bs-gutter-x)* .5);
+}
+
+.Our-Range-of-Expertise-tit-warper{
+    max-width: 916px;
+    width: 100%;
+    margin: 0px auto 80px;
+    text-align: center;
+}
+
+.Our-Range-of-Expertise-tit-warper h2{
+    margin-bottom: 26px;
+}
+
+.Our-Range-of-Expertise-tit-warper p {
+    margin: 0px;
+}
+
+.Our-Range-of-Expertise-card{
+    padding: 30px;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+.Our-Range-of-Expertise-card:hover{
+    background-color: var(--secondry);
+}
+
+.Our-Range-of-Expertise-tit-nd-icon{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-bottom: 27px;
+}
+
+.Our-Range-of-Expertise-tit-nd-icon h4{
+    margin: 0px;
+}
+
+.Our-Range-of-Expertise-card p{
+    margin-bottom: 27px;
+}
+
+.Our-Range-of-Expertise-card .primary-btn {
+    width: 100%;
+    text-align: center;
+}
+
+.Our-Services-Overview-sec{
+    padding: 60px 0px;
+}
+
+.Our-Services-Overview-tit-wraper{
+    margin: 0rem auto 80px;
+    max-width: 916px;
+    width: 100%;
+    text-align: center;
+}
+
+.Our-Services-Overview-main-tit{
+    margin-bottom: 26px;
+}
+
+.Our-Services-Overview-tit-wraper p{
+    margin: 0px;
+}
+
+.Our-Services-Overview-main-card{
+    padding: 30px;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.Our-Services-Overview-main-card > .row>*{
+    padding-right: calc(var(--bs-gutter-x)* .5);
+    padding-left: calc(var(--bs-gutter-x)* .5);
+}
+
+
+.Our-Services-Overview-mini-card img{
+   background-color: var(--primary);
+   border-radius: 5px;
+   width: 40px;
+   height: 40px;
+   padding: 8px;
+   margin-bottom: 16px;
+}
+
+.Our-Services-Overview-mini-card p{
+    font-family: "Jost";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 0px;
+    
+}
+
+.Our-Services-Overview-mini-card{
+    padding: 20px 30px;
+    /* border: 1px dashed var(--border); */
 }

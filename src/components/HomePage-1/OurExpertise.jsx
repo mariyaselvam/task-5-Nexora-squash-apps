@@ -9,9 +9,9 @@ const OurExpertise = () => {
     <>
      <section className="Home-one-Our-Expertise-sec">
         <div className="Home-one-Our-Expertise-tit-wrap">
-        <h3 className="Home-one-Our-Expertise-main-tit">
+        <h2 className="Home-one-Our-Expertise-main-tit">
         Our Expertise
-        </h3>
+        </h2>
         <p>Explore our specialized skills and knowledge across various industries. Discover how our unique value proposition sets us apart in delivering exceptional results.</p>
         </div>
         <div className="container">

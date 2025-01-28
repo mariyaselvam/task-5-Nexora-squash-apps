@@ -36,8 +36,8 @@ const BlogReviewCarousel = () => {
                     {
 
                             WhatourClientssayAboutUsOne.map((item, index) => (
-                                <SwiperSlide>
-                                <div className="blog-page-Review-Carousel-card">
+                                <SwiperSlide key={index}>
+                                <div  className="blog-page-Review-Carousel-card">
                                     <p>Agency Pro's blogs are exceptionally insightful, offering deep dives into AI.</p>
 
                                    <div className="blog-page-Review-Carouselca-card-footer">
@@ -45,7 +45,7 @@ const BlogReviewCarousel = () => {
                                         <img src={Profile1} alt="" />
                                     </div>
                                     <div className="blog-page-Review-Carouselca-card-footer-cont">
-                                        <h4>James Taylor</h4>
+                                        <h6>James Taylor</h6>
                                         <p>UI UX Designer</p>
                                     </div>
                                    </div>
