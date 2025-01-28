@@ -50,7 +50,6 @@ h6{
     font-size: 18px;
     font-weight: 700;
     line-height: 28px;
-    
 }
 
 section{
@@ -187,10 +186,10 @@ p{
 }
 
 .home-one-about-main-tit{
-    font-family: "Outfit";
+    /* font-family: "Outfit";
     font-size: 70px;
     font-weight: 700;
-    line-height: 80px;
+    line-height: 80px; */
     margin-bottom: 24px;
 }
 
@@ -414,7 +413,7 @@ p{
     padding: 0px 75px;
 }
 
-.inner-card-child > h4{
+.inner-card-child > h5{
     margin-bottom: 2px;
     font-family: "Outfit";
     font-size: 20px;
@@ -926,6 +925,7 @@ p{
     border-bottom: 1px solid var(--border);
     padding-bottom: 24px;
     flex-direction: row-reverse;
+    padding-right: 50px;
 }
 
 .testimonial-card-top{
@@ -1023,10 +1023,10 @@ p{
 }
 
 .Home-two-What-Sets-Us-Apart-main-tit{
-    font-family: "Outfit";
+    /* font-family: "Outfit";
     font-size: 60px;
     font-weight: 700;
-    line-height: 70px;
+    line-height: 70px; */
     margin-bottom: 30px;
 }
 
@@ -1089,10 +1089,10 @@ p{
 }
 
 .Home-Two-About-Nexora-Digitalagency-main-tit{
-    font-family: "Outfit";
+    /* font-family: "Outfit";
     font-size: 60px;
     font-weight: 700;
-    line-height: 70px;
+    line-height: 70px; */
     margin-bottom: 26px;
 }
 
@@ -1110,10 +1110,10 @@ p{
 }
 
 .Home-Two-About-Nexora-Digitalagency-cont-wrap h4{
-    font-family: "Outfit";
+    /* font-family: "Outfit";
     font-size: 24px;
     font-weight: 600;
-    line-height: 34px;
+    line-height: 34px; */
     padding-bottom: 16px;
     border-bottom: 2px solid var(--border);
     margin-bottom: 16px;
@@ -1807,10 +1807,6 @@ p{
 }
 
 .Blog-Detail-Content-main-tit{
-    /* font-family: "Outfit";
-    font-size: 55px;
-    font-weight: 700;
-    line-height: 65px; */
     margin-bottom: 30px;
 }
 
@@ -2215,4 +2211,56 @@ p{
 .Our-Services-Overview-mini-card{
     padding: 20px 30px;
     /* border: 1px dashed var(--border); */
+}
+
+.home-two-banner-cont-wrap .Services-Page-Banner-mini-tit{
+    margin: 0px auto 40px;
+}
+
+.common-mini-tit{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background-color: black;
+    color: var(--primary);
+    width: max-content;
+    padding: 8px 10px;
+    border-radius: 20px;
+    margin: 0px auto 30px;
+    font-family: "Outfit";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    position: relative;
+}
+
+.common-mini-tit::before{
+    content: "";
+    position: absolute;
+    width: 38px;
+    height: 100%;
+    background: url("../../assets/common/MiniTitIcons/mini-tit-lines-1.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    left: 0%;
+    transform: translateX(-100%);
+    top: 0px;
+}
+
+.common-mini-tit::after{
+    content: "";
+    position: absolute;
+    width: 38px;
+    height: 100%;
+    background: url("../../assets/common/MiniTitIcons/mini-tit-lines-2.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    left: 100%;
+    top: 0px;
+}
+
+.contact-us-Get-in-Touch-with-Us-cont-wrap .common-mini-tit{
+   margin: 0px 40px 28px;
 }

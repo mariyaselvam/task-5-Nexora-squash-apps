@@ -5,12 +5,18 @@ import Arrow from "../../assets/HomeOne/NexoraBlogHub/arrow-up.svg"
 import ArrowUP from "../../assets/HomeOne/NexoraBlogHub/arrow--up.svg"
 import { Link } from 'react-router-dom'
 
+import Book from "../../assets/common/MiniTitIcons/book.svg"
+
 
 const NexoraBlogHub = () => {
   return (
     <>
     <section className="Home-One-Nexora-Blog-Hub-sec">
         <div className="Home-One-Nexora-Blog-Hub-tit-wrap">
+            <span className="common-mini-tit">
+                <img src={Book} alt="" />
+                Blogs
+            </span>
         <h2 className="Home-One-Nexora-Blog-Hub-main-tit">
         Nexora Blog Hub
         </h2>

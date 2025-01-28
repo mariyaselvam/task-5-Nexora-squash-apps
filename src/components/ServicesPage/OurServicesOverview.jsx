@@ -2,11 +2,17 @@ import React from "react";
 import { OurServicesOverviewData } from "../../content/data";
 import { Link } from "react-router-dom";
 
+import Book from "../../assets/common/MiniTitIcons/profile-2user.svg";
+
 const OurServicesOverview = () => {
   return (
     <>
       <section className="Our-Services-Overview-sec">
         <div className="Our-Services-Overview-tit-wraper">
+          <span className="common-mini-tit">
+            <img src={Book} alt="" />
+            Service Overview
+          </span>
           <h2 className="Our-Services-Overview-main-tit">
             Our Services Overview
           </h2>

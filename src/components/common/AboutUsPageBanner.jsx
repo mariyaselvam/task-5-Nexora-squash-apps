@@ -8,6 +8,8 @@ import CarouselImg from "../../assets/AboutusPage/about-page-carosal.png"
 import 'swiper/css';
 import 'swiper/css/pagination';
 
+import profile2user from "../../assets/common/MiniTitIcons/profile-2user.svg"
+
 // import required modules
 import { Pagination } from 'swiper/modules';
 
@@ -18,6 +20,10 @@ const AboutUsPageBanner = () => {
         <div className="container">
             <div className="row">
                 <div className="about-us-page-banner-cont-wrap">
+                    <span className="common-mini-tit">
+                        <img src={profile2user} alt="" />
+                        About us
+                    </span>
                 <h1 className="about-us-page-banner-main-tit">Trusted Partner for Your Digital Growth</h1>
 
                 <p>At Nexora, we are more than just a digital agency - we are your partners in success, dedicated to empowering businesses to thrive in the digital age.</p>

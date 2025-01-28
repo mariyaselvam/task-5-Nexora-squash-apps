@@ -1,25 +1,29 @@
 import AboutNexoraDigitalagencyImg from "../../assets/HomeTwo/AboutNexoraDigitalagency/Home-Two-About-Nexora-Digitalagency-img.png"
-
+import profile2user from "../../assets/common/MiniTitIcons/profile-2user.svg"
 
 const HomeTwoAboutNexoraDigitalagency = () => {
   return (
     <>
     <section className="Home-Two-About-Nexora-Digitalagency-sec">
         <div className="Home-Two-About-Nexora-Digitalagency-tit-wrap">
-            <h3 className="Home-Two-About-Nexora-Digitalagency-main-tit">
+            <span className="common-mini-tit">
+                <img src={profile2user} alt="" />
+                About us
+            </span>
+            <h2 className="Home-Two-About-Nexora-Digitalagency-main-tit">
             About Nexora Digital agency
-            </h3>
+            </h2>
 
             <p>At Nexora, we are more than just a digital agency - we are your partners in success, dedicated to empowering businesses to thrive in the digital age.</p>
         </div>
         <div className="container">
             <div className="row">
-                <div className="col-md-6">
+                <div className="col-xl-6 ">
                     <div className="Home-Two-About-Nexora-Digitalagency-main-img">
                         <img src={AboutNexoraDigitalagencyImg} alt="" />
                     </div>
                 </div>
-                <div className="col-md-6">
+                <div className="col-xl-6 ">
                     <div className="Home-Two-About-Nexora-Digitalagency-cont-wrap">
                         <div className="row">
                             <div className="col-md-6">

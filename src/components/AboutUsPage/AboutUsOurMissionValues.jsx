@@ -1,5 +1,6 @@
 import React from 'react'
 import { AboutUsOurMissionValuesData } from '../../content/data'
+import profile2user from "../../assets/common/MiniTitIcons/star.svg"
 
 const AboutUsOurMissionValues = () => {
       const firstFiveItems = AboutUsOurMissionValuesData.slice(0, 2);  // First 5 items
@@ -8,6 +9,10 @@ const AboutUsOurMissionValues = () => {
     <>
     <section className="About-Us-Our-Mission-Values-sec">
          <div className="About-Us-Our-Mission-Values-tit-wrap">
+         <span className="common-mini-tit">
+                <img src={profile2user} alt="" />
+                Features
+            </span>
             <h2 className="About-Us-Our-Mission-Values-min-tit">
             Our Mission & Values
             </h2>

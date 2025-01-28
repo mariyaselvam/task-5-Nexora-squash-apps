@@ -1,4 +1,46 @@
+@media (max-width:1920px) {
+    h1{
+    font-family: "Outfit";
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 80px;
+}
 
+h2{
+    font-family: "Outfit";
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+h3{
+    font-family: "Outfit";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46px;
+}
+
+h4{
+    font-family: "Outfit";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 38px;
+}
+
+h5{
+    font-family: "Outfit";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+h6{
+    font-family: "Outfit";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+}
+}
 
 @media (min-width:1800px) {
     body .container{
@@ -39,18 +81,122 @@
         object-fit: cover;
     }
 
-    .home-one-footer-sec{
-        /* margin: 0rem 20px; */
-    }
-
     .carousel:not(.basic) > *{
         flex: 0 0 100%;
+    }
+
+    .home-one-who-we-are-cont-wrap{
+        padding: 50px;
+    }
+
+    .home-one-who-we-are-sec{
+        padding: 60px 0px;
+    }
+
+    .Home-one-Our-Expertise-sec{
+        padding: 60px 0px;
+    }
+
+    .accordion-button{
+        font-size: 20px;
+        padding: 28px 80px 28px 20px;
+    }
+}
+
+@media (max-width:1400px) {
+    .inner-card-child-center{
+      border: none;
+    }
+
+    .home-one-about-main-tit > span{
+        width: 175px;
+        height: 50px;
+    }
+
+    .Home-Two-About-Nexora-Digitalagency-sec .row>*{
+        padding-right: calc(var(--bs-gutter-x)* .5);
+        padding-left: calc(var(--bs-gutter-x)* .5);
+    }
+
+    .Our-Culture-Empowering-Excellence-sec .row>*{
+        padding-right: calc(var(--bs-gutter-x)* .5);
+        padding-left: calc(var(--bs-gutter-x)* .5);
+    }
+    h1{
+        font-family: "Outfit";
+        font-size: 65px;
+        font-weight: 700;
+        line-height: 80px;
+    }
+    
+    h2{
+        font-family: "Outfit";
+        font-size: 55px;
+        font-weight: 700;
+        line-height: 70px;
+    }
+    
+    h3{
+        font-family: "Outfit";
+        font-size: 31px;
+        font-weight: 700;
+        line-height: 46px;
+    }
+    
+    h4{
+        font-family: "Outfit";
+        font-size: 19px;
+        font-weight: 700;
+        line-height: 38px;
+    }
+    
+    h5{
+        font-family: "Outfit";
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 30px;
+    }
+    
+    h6{
+        font-family: "Outfit";
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 28px;
+    }
+    .testimonial-card-wrap{
+        padding: 20px;
+    }
+
+
+}
+
+@media (max-width:1200px) {
+    .nav-menu-options{
+        display: none;
+    }  
+    .Home-one-Our-Expertise-main-img{
+        width: 300px;
+        flex-shrink: 0;
+        flex-grow: 0;
+    } 
+
+    .Home-one-Our-Expertise-inner-card{
+        flex-wrap: wrap;
+    }
+    .carousel:not(.basic) > *{
+        flex: 0 0 130%;
+    }
+
+    .brand-Logo-ul-list{
+        width: 300%;
     }
 }
 
 @media (max-width:1000px) {
-    .nav-menu-options{
-        display: none;
+    .Home-one-Our-Expertise-main-img{
+        width: 100%;
+        height: 400px;
+        object-fit: contain;
     }
 
     .brand-Logo-ul-list{
@@ -71,6 +217,107 @@
     .home-one-who-we-are-cont-wrap{
         padding: 70px;
     }
+
+    h1{
+        font-family: "Outfit";
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 80px;
+    }
+    
+    h2{
+        font-family: "Outfit";
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 70px;
+    }
+    
+    h3{
+        font-family: "Outfit";
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 46px;
+    }
+    
+    h4{
+        font-family: "Outfit";
+        font-size: 19px;
+        font-weight: 700;
+        line-height: 38px;
+    }
+    
+    h5{
+        font-family: "Outfit";
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 30px;
+    }
+    
+    h6{
+        font-family: "Outfit";
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 28px;
+    }
+
+    .Home-one-Our-Expertise-main-card{
+        width: 95%;
+        margin: 0px auto 30px;
+    }
+}
+
+@media (max-width:767px) {
+    
+    h1{
+        font-family: "Outfit";
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 60px;
+    }
+    
+    h2{
+        font-family: "Outfit";
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 50px;
+    }
+    
+    h3{
+        font-family: "Outfit";
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 26px;
+    }
+    
+    h4{
+        font-family: "Outfit";
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 20px;
+    }
+    
+    h5{
+        font-family: "Outfit";
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 15px;
+    }
+    
+    h6{
+        font-family: "Outfit";
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 16px;
+    }
+
+    .Home-one-Our-Expertise-main-card{
+        /* width: 80%; */
+        margin: 0px auto 30px;
+    }
+
+    .Home-one-Our-Expertise-inner-card{
+        gap: 20px;
+    }
 }
 
 @media (max-width:600px) {
@@ -84,7 +331,7 @@
     }
 
     .home-one-about-main-tit{
-        font-size: 50px;
+        /* font-size: 50px; */
     }
 
     .home-one-footer-sec{
@@ -105,7 +352,7 @@
     }
 
     .home-one-who-we-are-cont-wrap{
-        padding: 50px;
+        padding: 30px;
     }
 
     .team-members-client-projets{
@@ -124,4 +371,90 @@
     .home-one-who-we-are-para{
         margin-bottom: 40px;
     }
+
+    .home-one-about-main-tit > span{
+        transform: translateY(7px);
+    }
+
+    h1{
+        font-family: "Outfit";
+        font-size: 38px;
+        font-weight: 700;
+        line-height: 50px;
+    }
+    
+    h2{
+        font-family: "Outfit";
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 40px;
+    }
+    
+    h3{
+        font-family: "Outfit";
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 35px;
+    }
+    
+    h4{
+        font-family: "Outfit";
+        font-size: 19px;
+        font-weight: 700;
+        line-height: 30px;
+    }
+    
+    h5{
+        font-family: "Outfit";
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 30px;
+    }
+    
+    h6{
+        font-family: "Outfit";
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 28px;
+    }
+    
+    .brand-Logo-ul-list{
+        width: 400%;
+    }
 }
+
+
+
+@media (max-width:320px) {
+    
+}
+
+@media (max-width:480px) {
+    .who-we-are-num{
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 80px;
+    }
+}
+
+
+
+@media (max-width:992px) {
+    
+}
+
+@media (max-width:1024px) {
+    
+}
+
+@media (max-width:1025px) {
+    
+}
+
+@media (max-width:1080px) {
+    
+}
+
+
+
+

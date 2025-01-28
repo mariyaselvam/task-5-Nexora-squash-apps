@@ -3,11 +3,18 @@ import { Link } from "react-router-dom";
 
 import { OurRangeofExpertiseSecData } from "../../content/data";
 
+
+import Book from "../../assets/common/MiniTitIcons/profile-2user.svg";
+
 const OurRangeofExpertiseSec = () => {
   return (
     <>
       <section className="Our-Range-of-Expertise-sec">
         <div className="Our-Range-of-Expertise-tit-warper">
+          <span className="common-mini-tit">
+            <img src={Book} alt="" />
+            Expertise
+          </span>
           <h2 className="Our-Range-of-Expertise-main-tit">
             Our Range of Expertise
           </h2>

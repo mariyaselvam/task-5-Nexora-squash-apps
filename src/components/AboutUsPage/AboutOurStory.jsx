@@ -1,11 +1,16 @@
 import React from 'react'
 import { OverTheYearsCont } from '../../content/data' 
+import profile2user from "../../assets/common/MiniTitIcons/profile-2user.svg"
 
 const AboutOurStory = () => {
   return (
     <>
      <section className="About-Our-Story-sec">
         <div className="About-Our-Story-tit-wrap">
+        <span className="common-mini-tit">
+                        <img src={profile2user} alt="" />
+                        Our Story
+                    </span>
             <h2 className="About-Our-Story-main-tit">
             Over The Years
             </h2>

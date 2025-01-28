@@ -3,12 +3,17 @@ import ECommerceSolutions from "../../assets/HomeOne/OurExpertise/E-commerce-Sol
 import DigitalMarketing from "../../assets/HomeOne/OurExpertise/Digital-Marketing.png"
 import MobileAppDevelopment from "../../assets/HomeOne/OurExpertise/Mobile-App-Development.png"
 import ContentStrategy from "../../assets/HomeOne/OurExpertise/Content-Strategy.png"
+import profile2user from "../../assets/common/MiniTitIcons/profile-2user.svg"
 
 const OurExpertise = () => {
   return (
     <>
      <section className="Home-one-Our-Expertise-sec">
         <div className="Home-one-Our-Expertise-tit-wrap">
+            <span className="common-mini-tit">
+                <img src={profile2user} alt="" />
+                Expertise
+            </span>
         <h2 className="Home-one-Our-Expertise-main-tit">
         Our Expertise
         </h2>
@@ -33,15 +38,15 @@ const OurExpertise = () => {
 
                         <div className="Home-one-Our-Expertise-inner-card">
                             <div className="inner-card-child">
-                                <h4>40%</h4>
+                                <h5>40%</h5>
                                 <p>Sales Increased</p>
                             </div>
                             <div className="inner-card-child inner-card-child-center">
-                                <h4>100%</h4>
+                                <h5>100%</h5>
                                 <p>Satisfied Clients</p>
                             </div>
                             <div className="inner-card-child">
-                                <h4>Awarded</h4>
+                                <h5>Awarded</h5>
                                 <p>Best Solutions</p>
                             </div>
                         </div>
@@ -63,15 +68,15 @@ const OurExpertise = () => {
 
                         <div className="Home-one-Our-Expertise-inner-card">
                             <div className="inner-card-child">
-                                <h4>$1 Million</h4>
+                                <h5>$1 Million</h5>
                                 <p>Revenue Generated</p>
                             </div>
                             <div className="inner-card-child inner-card-child-center">
-                                <h4>150%</h4>
+                                <h5>150%</h5>
                                 <p>Marketing Excellence</p>
                             </div>
                             <div className="inner-card-child">
-                                <h4>Awarded</h4>
+                                <h5>Awarded</h5>
                                 <p>Diverse Clients</p>
                             </div>
                         </div>
@@ -98,15 +103,15 @@ const OurExpertise = () => {
 
                         <div className="Home-one-Our-Expertise-inner-card">
                             <div className="inner-card-child">
-                                <h4>200+</h4>
+                                <h5>200+</h5>
                                 <p>Custom Development</p>
                             </div>
                             <div className="inner-card-child inner-card-child-center">
-                                <h4>100+</h4>
+                                <h5>100+</h5>
                                 <p>Fortune Clients</p>
                             </div>
                             <div className="inner-card-child">
-                                <h4>Awarded</h4>
+                                <h5>Awarded</h5>
                                 <p>Best App Dev Firm</p>
                             </div>
                         </div>
@@ -128,15 +133,15 @@ const OurExpertise = () => {
 
                         <div className="Home-one-Our-Expertise-inner-card">
                             <div className="inner-card-child">
-                                <h4>+ 40%</h4>
+                                <h5>+ 40%</h5>
                                 <p>Organic Traffic</p>
                             </div>
                             <div className="inner-card-child inner-card-child-center">
-                                <h4>100+</h4>
+                                <h5>100+</h5>
                                 <p>Satisfied Clients</p>
                             </div>
                             <div className="inner-card-child">
-                                <h4>Awarded</h4>
+                                <h5>Awarded</h5>
                                 <p>Content Excellence</p>
                             </div>
                         </div>
