@@ -26,12 +26,12 @@ const OurCultureEmpoweringExcellence = () => {
         </div>
         <div className="container">
           <div className="row">
-            <div className="col-lg-6">
+            <div className="col-xxl-6 col-xl-12">
               <div className="Our-Culture-Empowering-Excellence-main-img">
                 <img src={OurCultureEmpoweringExcellenceMainImg} alt="" />
               </div>
             </div>
-            <div className="col-lg-6">
+            <div className="col-xxl-6 col-xl-12">
               <div className="Our-Culture-Empowering-Excellence-cont-wrap">
                 <div className="row">
                   {OurCultureEmpoweringExcellenceData.map((items, index) => (

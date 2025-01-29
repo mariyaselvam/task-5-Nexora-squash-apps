@@ -27,7 +27,7 @@ const Header = () => {
 
                   <div className="nav-menu-options">
                     <Link className= {"nav-list " + (url === "/" || url === "/pages" ? "nav-list-active" : "") }  to="/" >Home</Link>
-                    <Link className= {"nav-list " + (url === "/about" ? "nav-list-active" : "") }  to="/about">Pages</Link>
+                    <Link className= {"nav-list " + (url === "/about" ? "nav-list-active" : "") }  to="/about">About</Link>
                     <Link className= {"nav-list " + (url === "/services" ? "nav-list-active" : "") } to="/services">Services</Link>
                     <Link className= {"nav-list " + (url === "/blog-listing" || url === "/blog-detail"  ? "nav-list-active" : "") } to="/blog-listing">Blog</Link>
                     <Link className= {"nav-list " + ( url === "/contact-us"  ? "nav-list-active" : "") } to="/contact-us">Support</Link>

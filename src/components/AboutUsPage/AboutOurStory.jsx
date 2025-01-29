@@ -18,10 +18,10 @@ const AboutOurStory = () => {
             <p>Nexora has evolved from a small, ambitious team to a globally recognized agency redefining digital experiences.</p>
         </div>
         <div className="container">
-            <div className="row">
+            <div className="row justify-content-center">
                  {
                     OverTheYearsCont.map((items , index) => (
-                        <div key={index} className="col-lg-4 col-md-6">
+                        <div key={index} className="col-xxl-4 col-xl-6">
                           <div className="About-Our-Story-card">
 
                             <span className="About-Our-Story-year">{items.year}</span>

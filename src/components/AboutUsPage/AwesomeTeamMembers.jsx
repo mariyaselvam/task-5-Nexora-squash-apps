@@ -23,9 +23,9 @@ const AwesomeTeamMembers = () => {
           </p>
         </div>
         <div className="container">
-          <div className="row">
+          <div className="row justify-content-center">
             {AwesomeTeamMembersData.map((items, index) => (
-              <div key={index} className="col-lg-3">
+              <div key={index} className="col-xl-3 col-lg-4 col-md-6">
                 <div className="Awesome-Team-Members-card">
                   <div className="Awesome-Team-Members-img">
                     <Link to="#">
