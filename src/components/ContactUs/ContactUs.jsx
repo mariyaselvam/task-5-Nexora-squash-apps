@@ -14,7 +14,7 @@ const ContactUs = () => {
       <section className="contact-us-Get-in-Touch-with-Us-sec">
         <div className="container">
           <div className="row">
-            <div className="col-md-6">
+            <div className="col-xl-6">
               <div className="contact-us-Get-in-Touch-with-Us-cont-wrap">
                 <span className="common-mini-tit">
                   <img src={Book} alt="" />
@@ -44,14 +44,14 @@ const ContactUs = () => {
                       <h4> {items.tit} </h4>
                     </div>
 
-                    <Link className="arrow-icon">
+                    <Link to={items.Link} className="arrow-icon">
                       <img src={Arrow} alt="" />
                     </Link>
                   </div>
                 ))}
               </div>
             </div>
-            <div className="col-md-6">
+            <div className="col-xl-6">
               <div className="contact-us-Get-in-Touch-with-Us-from-wrap">
                 <h4 className="Get-in-Touch-with-Us-from-main-tit">
                   Send Us a Message

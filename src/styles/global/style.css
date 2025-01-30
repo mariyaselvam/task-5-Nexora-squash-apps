@@ -137,6 +137,7 @@ p{
 }
 
 .headerOne{
+    position: relative;
     padding: 50px 0px 60px;
     width: 100%;
 }
@@ -299,7 +300,8 @@ p{
 
 .What-Sets-Us-Apart-main-tit-wrap{
     text-align: center;
-    margin-bottom: 80px;
+    margin:0px auto 80px;
+    text-align: center;
 }
 
 .What-Sets-Us-Apart-main-tit-wrap > p{
@@ -2268,4 +2270,63 @@ p{
 
 .contact-us-Get-in-Touch-with-Us-cont-wrap .common-mini-tit{
    margin: 0px 40px 28px;
+}
+
+.about-us-page-banner-sec .swiper-pagination{
+ width: max-content !important;
+ left: 50% !important;
+ transform: translateX(-50%);
+ background-color: white;
+ bottom: 0px !important;
+ padding: 5px 16px;
+ border-radius: 20px 20px 0px 0px;
+}
+
+.about-us-page-banner-sec .swiper-pagination-bullet{
+   background-color: var(--primary);
+}
+
+.about-us-page-banner-img-carosal-wrap{
+    border-radius: 20px;
+}
+
+.Page-404-body-main-tit{
+    font-size: 380px;
+    font-weight: 700;
+    line-height: 390px;
+}
+
+.Page-404-body-cont-warper{
+    max-width: 717px;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.Page-404-body-cont-warper{
+    text-align: center;
+}
+
+.Page-404-body-cont-warper p{
+    margin-bottom: 50px;
+}
+
+.Page-404-body-sec{
+    padding: 60px 0px 120px;
+}
+
+.handburger-menu-icon{
+    width: 40px;
+    height: 40px;
+    display: none;
+    border: none;
+    background-color: transparent;
+}
+
+
+.nav-view{
+    transform: translateX(0px) !important;
+}
+
+.mobile-view-side-nav{
+    display: none;
 }

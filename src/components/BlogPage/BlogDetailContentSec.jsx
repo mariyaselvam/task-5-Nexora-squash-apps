@@ -12,7 +12,7 @@ const BlogDetailContentSec = () => {
     <section className="Blog-Detail-Content-Sec">
       <div className="container">
         <div className="row">
-          <div className="col-md-3">
+          <div className="col-xl-3">
             <div className="blog-detail-auther-card-wraper">
               <div className="blog-detail-auther-card">
                 <div className="blog-detail-auther-card-auther-details">
@@ -46,7 +46,7 @@ const BlogDetailContentSec = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-9">
+          <div className="col-xl-9">
             <div className="Blog-Detail-Content-wraper-nd-img">
               <h2 className="Blog-Detail-Content-main-tit">
                 The Art of Minimalism in Web Design

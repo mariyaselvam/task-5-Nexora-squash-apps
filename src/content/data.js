@@ -464,17 +464,20 @@ export const GetinTouchwithUsData = [
     {
         icon : MailIcon,
         para : "You can email us here",
-        tit : "hello@nexora"
+        tit : "hello@nexora",
+        Link:"mailto:hello@nexora"
     },
     {
         icon : LocationIcon,
         para : "Locations",
-        tit : "Get Directions"
+        tit : "Get Directions",
+        Link:"#"
     },
     {
         icon : CallIcon,
         para : "Or give us a call",
-        tit : "Book a Call"
+        tit : "Book a Call",
+        Link:"#"
     }
 ]
 

@@ -21,9 +21,9 @@ const HomeTwoWhatSetsUsApart = () => {
           </p>
         </div>
         <div className="container">
-          <div className="row">
+          <div className="row justify-content-center">
             {HomeTwoWhatSetsUsApartData.map((item, index) => (
-              <div key={index} className="col-md-3">
+              <div key={index} className="col-xl-3 col-lg-4 col-md-6">
                 <div
                   className={`${item.style} Home-two-What-Sets-Us-Apart-card`}
                 >

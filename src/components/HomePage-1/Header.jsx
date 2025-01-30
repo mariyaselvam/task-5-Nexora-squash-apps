@@ -1,11 +1,25 @@
+
+import { Link , useLocation } from "react-router-dom"
+import { useState , useEffect } from 'react'
+
 import React from 'react'
 import Logo from "../../assets/common/Logo.svg"
 // import { Link } from 'react-router-dom'
-import { useState , useEffect } from 'react'
-import { Link , useLocation } from "react-router-dom"
+
+import HandburgerMenu from "../../assets/Header/burger.svg"
+import Close from "../../assets/Header/close.svg"
 
 
 const Header = () => {
+
+
+  const [BtnState, setBtnState] = useState(false);
+    function NavToggle(){
+    setBtnState(BtnState  => !BtnState);
+    }
+    let NavBtn = BtnState ? 'nav-view' : '';
+
+
     // nav-menu-active-code
     const location = useLocation(); 
     const [url, setUrl] = useState(null);
@@ -36,10 +50,32 @@ const Header = () => {
                   <div className="nav-btn-wrap">
                     <Link to="/contact-us">Contact Us</Link>
                   </div>
+
+                  <button onClick={NavToggle} className="handburger-menu-icon">
+                    <img src={HandburgerMenu} alt="" />
+                  </button>
+
+
+
                 </div>
               </div>
             </div>
            </div>
+
+           <div id="home1-mobile-nav" className={ `mobile-view-side-nav ${NavBtn}`}>
+                 <button onClick={NavToggle} className="handburger-menu-icon">
+                    <img src={Close} alt="" />
+                  </button>
+
+                  <div className="mobile-tab-view-nav-options">
+                    <Link className= {"nav-list " + (url === "/" || url === "/pages" ? "nav-list-active" : "") }  to="/" >Home</Link>
+                    <Link className= {"nav-list " + (url === "/about" ? "nav-list-active" : "") }  to="/about">About</Link>
+                    <Link className= {"nav-list " + (url === "/services" ? "nav-list-active" : "") } to="/services">Services</Link>
+                    <Link className= {"nav-list " + (url === "/blog-listing" || url === "/blog-detail"  ? "nav-list-active" : "") } to="/blog-listing">Blog</Link>
+                    <Link className= {"nav-list " + ( url === "/contact-us"  ? "nav-list-active" : "") } to="/contact-us">Support</Link>
+                  </div>
+           </div>
+
     </section>
     </>
   )
