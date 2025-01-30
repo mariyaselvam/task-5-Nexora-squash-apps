@@ -473,6 +473,15 @@ h6{
 
 @media (max-width:600px) {
 
+    .accordion-button::after{
+        width: 30px;
+        height: 30px;
+    }
+
+    .mobile-view-side-nav{
+        width: 65%;
+    }
+
     .home-one-footer-sec{
         width: 100%;
     }

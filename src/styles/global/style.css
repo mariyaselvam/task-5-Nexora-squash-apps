@@ -187,10 +187,6 @@ p{
 }
 
 .home-one-about-main-tit{
-    /* font-family: "Outfit";
-    font-size: 70px;
-    font-weight: 700;
-    line-height: 80px; */
     margin-bottom: 24px;
 }
 
@@ -2330,3 +2326,38 @@ p{
 .mobile-view-side-nav{
     display: none;
 }
+
+.home-nav-link{
+    position: relative;
+
+}
+
+.homes-links-dropdown , .blog-links-dropdown{
+   position: absolute;
+   background-color: var(--primary);
+   padding: 30px 30px;
+   width: 140px;
+   left: 50%;
+   transform: translateX(-50%);
+   border-radius: 30px;
+   top: 100%;
+   visibility: hidden;
+   opacity: 0;
+   transition: bottom 0.3s ease;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+
+.homes-links-dropdown a{
+    /* margin-bottom: 15px; */
+
+}
+
+.home-nav-link:hover .homes-links-dropdown{
+   bottom: -150px;
+   visibility: visible;
+   opacity: 1;  
+}
+
