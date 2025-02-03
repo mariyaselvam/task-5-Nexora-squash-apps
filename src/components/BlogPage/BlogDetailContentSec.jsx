@@ -7,6 +7,8 @@ import Instagram from "../../assets/HomeOne/Footer/instagram.svg";
 import linkedIn from "../../assets/HomeOne/Footer/linked-in.svg";
 import BlogAuther from "../../assets/BlogPage/Blog-auther.png";
 
+import Icon404 from "../../assets/BlogPage/magicpen.svg"
+
 const BlogDetailContentSec = () => {
   return (
     <section className="Blog-Detail-Content-Sec">
@@ -48,6 +50,11 @@ const BlogDetailContentSec = () => {
           </div>
           <div className="col-xl-9">
             <div className="Blog-Detail-Content-wraper-nd-img">
+            <span className="common-mini-tit">
+                            <img src={Icon404} alt="" />
+                            Marketing
+                        </span>
+
               <h2 className="Blog-Detail-Content-main-tit">
                 The Art of Minimalism in Web Design
               </h2>

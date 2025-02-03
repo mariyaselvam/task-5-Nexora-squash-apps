@@ -51,31 +51,94 @@ import DesignDevelopment1 from "../assets/ServicesPage/OurServicesOverview/Desig
 import BrandingIdentity1 from "../assets/ServicesPage/OurServicesOverview/Branding-Identity-1.svg"
 import DigitalMarketing1 from "../assets/ServicesPage/OurServicesOverview/Digital-Marketing-1.svg"
 
-
 import DesignDevelopment2 from "../assets/ServicesPage/OurServicesOverview/Design-Development-2.svg"
 import BrandingIdentity2 from "../assets/ServicesPage/OurServicesOverview/Branding-Identity-2.svg"
 import DigitalMarketing2 from "../assets/ServicesPage/OurServicesOverview/Digital-Marketing-2.svg"
-
 
 import DesignDevelopment3 from "../assets/ServicesPage/OurServicesOverview/Design-Development-3.svg"
 import BrandingIdentity3 from "../assets/ServicesPage/OurServicesOverview/Branding-Identity-3.svg"
 import DigitalMarketing3 from "../assets/ServicesPage/OurServicesOverview/Digital-Marketing-3.svg"
 
-
 import DesignDevelopment4 from "../assets/ServicesPage/OurServicesOverview/Design-Development-4.svg"
 import BrandingIdentity4 from "../assets/ServicesPage/OurServicesOverview/Branding-Identity-4.svg"
 import DigitalMarketing4 from "../assets/ServicesPage/OurServicesOverview/Digital-Marketing-4.svg"
-
 
 import DesignDevelopment5 from "../assets/ServicesPage/OurServicesOverview/Design-Development-5.svg"
 import BrandingIdentity5 from "../assets/ServicesPage/OurServicesOverview/Branding-Identity-5.svg"
 import DigitalMarketing5 from "../assets/ServicesPage/OurServicesOverview/Digital-Marketing-5.svg"
 
-
 import DesignDevelopment6 from "../assets/ServicesPage/OurServicesOverview/Design-Development-6.svg"
 import BrandingIdentity6 from "../assets/ServicesPage/OurServicesOverview/Branding-Identity-6.svg"
 import DigitalMarketing6 from "../assets/ServicesPage/OurServicesOverview/Digital-Marketing-6.svg"
 
+import BarndIcon1 from "../assets/HomeOne/BrandLogoSec/Logo-1.svg"
+import BarndIcon2 from "../assets/HomeOne/BrandLogoSec/Logo-2.svg"
+import BarndIcon3 from "../assets/HomeOne/BrandLogoSec/Logo-3.svg"
+import BarndIcon4 from "../assets/HomeOne/BrandLogoSec/Logo-4.svg"
+import BarndIcon5 from "../assets/HomeOne/BrandLogoSec/Logo-5.svg"
+import BarndIcon6 from "../assets/HomeOne/BrandLogoSec/Logo-6.svg"
+import BarndIcon7 from "../assets/HomeOne/BrandLogoSec/Logo-7.svg"
+import Brandstar from "../assets/HomeOne/BrandLogoSec/Star.svg"
+
+
+export const BrandLogosSecData = [
+    {
+        logo: BarndIcon1, 
+        star:Brandstar
+    },
+    {
+        logo: BarndIcon2, 
+        star:Brandstar
+    },
+    {
+        logo: BarndIcon3, 
+        star:Brandstar
+    },
+    {
+        logo: BarndIcon4, 
+        star:Brandstar
+    },
+    {
+        logo: BarndIcon5, 
+        star:Brandstar
+    },
+    {
+        logo: BarndIcon6, 
+        star:Brandstar
+    },
+    {
+        logo: BarndIcon7, 
+        star:Brandstar
+    },
+    {
+        logo: BarndIcon1, 
+        star:Brandstar
+    },
+    {
+        logo: BarndIcon2, 
+        star:Brandstar
+    },
+    {
+        logo: BarndIcon3, 
+        star:Brandstar
+    },
+    {
+        logo: BarndIcon4, 
+        star:Brandstar
+    },
+    {
+        logo: BarndIcon5, 
+        star:Brandstar
+    },
+    {
+        logo: BarndIcon6, 
+        star:Brandstar
+    },
+    {
+        logo: BarndIcon7, 
+        star:Brandstar
+    }
+]
 
 export const WhatSetsUsApartData = [
     {

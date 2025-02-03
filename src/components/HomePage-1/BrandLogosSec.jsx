@@ -1,82 +1,27 @@
-import LogoOne from "../../assets/HomeOne/BrandLogoSec/Logo-1.svg"
-import Star from "../../assets/HomeOne/BrandLogoSec/Star.svg"
+import LogoOne from "../../assets/HomeOne/BrandLogoSec/Logo-1.svg";
+import Star from "../../assets/HomeOne/BrandLogoSec/Star.svg";
 
+import { BrandLogosSecData } from "../../content/data";
 
 const BrandLogosSec = () => {
   return (
     <>
-    <section className="brand-logo-sec">
+      <section className="brand-logo-sec">
         <ul className="brand-Logo-ul-list">
-            <li>
-                <img src={LogoOne} alt="" />
-            </li>
-            <li>
-                <img src={Star} alt="" />
-            </li>
-            <li>
-                <img src={LogoOne} alt="" />
-            </li>
-            <li>
-                <img src={Star} alt="" />
-            </li>
-            <li>
-                <img src={LogoOne} alt="" />
-            </li>
-            <li>
-                <img src={Star} alt="" />
-            </li>
-            <li>
-                <img src={LogoOne} alt="" />
-            </li>
-            <li>
-                <img src={Star} alt="" />
-            </li>
-            <li>
-                <img src={LogoOne} alt="" />
-            </li>
-            <li>
-                <img src={Star} alt="" />
-            </li>
-            <li>
-                <img src={LogoOne} alt="" />
-            </li>
-            <li>
-                <img src={Star} alt="" />
-            </li>
-            <li>
-                <img src={LogoOne} alt="" />
-            </li>
-            <li>
-                <img src={Star} alt="" />
-            </li>
-            <li>
-                <img src={LogoOne} alt="" />
-            </li>
-            <li>
-                <img src={Star} alt="" />
-            </li>
-            <li>
-                <img src={LogoOne} alt="" />
-            </li>
-            <li>
-                <img src={Star} alt="" />
-            </li>
-            <li>
-                <img src={LogoOne} alt="" />
-            </li>
-            <li>
-                <img src={Star} alt="" />
-            </li>
-            <li>
-                <img src={LogoOne} alt="" />
-            </li>
-            <li>
-                <img src={Star} alt="" />
-            </li>
+          {BrandLogosSecData.map((items, index) => (
+            <>
+              <li >
+                <img src={items.logo} alt="" />
+              </li>
+              <li>
+                <img src={items.star} alt="" />
+              </li>
+            </>
+          ))}
         </ul>
-    </section>
+      </section>
     </>
-  )
-}
+  );
+};
 
-export default BrandLogosSec
+export default BrandLogosSec;

@@ -17,15 +17,15 @@ const WhoWeAre = () => {
                      <div className="team-members-client-projets">
                         <div className="team-mem">
                             <span className="who-we-are-num">6K+</span>
-                            <span>Team Member</span>
+                            <span>Team Members</span>
                         </div>
                         <div className="client-review">
                             <span className="who-we-are-num">50+</span>
-                            <span>Client Review</span>
+                            <span>Client Reviews</span>
                         </div>
                         <div className="Complete-Project">
                             <span className="who-we-are-num">10+</span>
-                            <span>Complete Project</span>
+                            <span>Complete Projects</span>
                         </div>
                      </div>
                    </div>

@@ -17,7 +17,7 @@ const HomeTwoWhatSetsUsApart = () => {
 
           <p>
             Maximize your online potential with our customized and
-            cutting-edgeweb development services.
+            cutting-edge web development services.
           </p>
         </div>
         <div className="container">

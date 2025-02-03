@@ -10,6 +10,7 @@ import HomeTwoBannerSec from '../components/HomePage-2/HomeTwoBannerSec'
 import HomeTwoWhatSetsUsApart from '../components/HomePage-2/HomeTwoWhatSetsUsApart'
 import HomeTwoAboutNexoraDigitalagency from '../components/HomePage-2/HomeTwoAboutNexoraDigitalagency'
 import Testswiper from '../components/HomePage-2/Testswiper'
+import ContactUs from '../components/ContactUs/ContactUs'
 
 
 const Pages = () => {
@@ -24,7 +25,8 @@ const Pages = () => {
     <NexoraBlogHub />
     <TestimonialsSec /> 
     {/* <Testswiper /> */}
-    <FaqSec />
+    {/* <FaqSec /> */}
+    <ContactUs />
     <Footer />
     </>
   )

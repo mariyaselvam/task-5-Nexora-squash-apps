@@ -15,7 +15,7 @@ const WhatSetsUsApart = () => {
         <h2 className="What-Sets-Us-Apart-main-tit">
         What Sets Us Apart
         </h2>
-        <p>Maximize your online potential with our customized and cutting-edgeweb development services.</p>
+        <p>Maximize your online potential with our customized and cutting-edge web development services.</p>
         </div>
         <div className="container">
             <div className="row">

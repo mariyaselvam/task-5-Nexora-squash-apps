@@ -11,7 +11,7 @@ import "swiper/css/pagination";
 // Import required modules
 import { Autoplay } from "swiper/modules";
 
-import Book from "../../assets/common/MiniTitIcons/book.svg"
+import Book from "../../assets/common/MiniTitIcons/book.svg";
 
 const TestimonialsSec = () => {
   return (
